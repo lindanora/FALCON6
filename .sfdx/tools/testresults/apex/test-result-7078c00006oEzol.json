@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Fri May 27 2022 10:28:10 PM",
+    "testExecutionTimeInMs": 394,
+    "testTotalTimeInMs": 394,
+    "commandTimeInMs": 292,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "7078c00006oEzol",
+    "userId": "0058c00000AwsWBAAZ"
+  },
+  "tests": [
+    {
+      "id": "07M8c000005pOgfEAE",
+      "queueItemId": "7098c000001QBePAAW",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006oEzolAAC",
+      "methodName": "testValidation1",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8c00000Rj89qAAB",
+        "name": "ContactTriggerTest",
+        "namespacePrefix": null,
+        "fullName": "ContactTriggerTest"
+      },
+      "runTime": 394,
+      "testTimestamp": "2022-05-28T03:28:10.000+0000",
+      "fullName": "ContactTriggerTest.testValidation1"
+    }
+  ]
+}

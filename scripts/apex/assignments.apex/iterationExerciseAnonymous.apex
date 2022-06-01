@@ -1,0 +1,1 @@
+IterationExercise.getMultiplicationTable(10);

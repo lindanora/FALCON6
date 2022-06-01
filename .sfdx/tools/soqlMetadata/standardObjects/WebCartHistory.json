@@ -1,0 +1,458 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Cart History ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Cart ID",
+      "name": "WebCartId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "WebCart"
+      ],
+      "relationshipName": "WebCart",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Changed Field",
+      "name": "Field",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Account",
+          "validFor": null,
+          "value": "Account"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Billing Address",
+          "validFor": null,
+          "value": "BillingAddress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Billing City",
+          "validFor": null,
+          "value": "BillingCity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Billing Country",
+          "validFor": null,
+          "value": "BillingCountry"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Billing Geocode Accuracy",
+          "validFor": null,
+          "value": "BillingGeocodeAccuracy"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Billing Latitude",
+          "validFor": null,
+          "value": "BillingLatitude"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Billing Longitude",
+          "validFor": null,
+          "value": "BillingLongitude"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Billing State",
+          "validFor": null,
+          "value": "BillingState"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Billing Street",
+          "validFor": null,
+          "value": "BillingStreet"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Billing Zip",
+          "validFor": null,
+          "value": "BillingPostalCode"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cart Name",
+          "validFor": null,
+          "value": "Name"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cart Promotions Plus Tax Adjustment",
+          "validFor": null,
+          "value": "TotalAdjustmentAmount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Created.",
+          "validFor": null,
+          "value": "created"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email address for Guest User",
+          "validFor": null,
+          "value": "GuestEmailAddress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Feed event",
+          "validFor": null,
+          "value": "feedEvent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "First Name for Guest User",
+          "validFor": null,
+          "value": "GuestFirstName"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Individual Merged",
+          "validFor": null,
+          "value": "individualMerged"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Is Cart Secondary",
+          "validFor": null,
+          "value": "IsSecondary"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Is Repricing Needed",
+          "validFor": null,
+          "value": "IsRepricingNeeded"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Last Name for Guest User",
+          "validFor": null,
+          "value": "GuestLastName"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Last Repricing Date",
+          "validFor": null,
+          "value": "LastRepricingDate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Owner (Accepted)",
+          "validFor": null,
+          "value": "ownerAccepted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Owner (Assignment)",
+          "validFor": null,
+          "value": "ownerAssignment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Owner Name",
+          "validFor": null,
+          "value": "Owner"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Payment Group",
+          "validFor": null,
+          "value": "PaymentGroup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Payment Method",
+          "validFor": null,
+          "value": "PaymentMethod"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Phone Number for Guest User",
+          "validFor": null,
+          "value": "GuestPhoneNumber"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Purchase Order Number",
+          "validFor": null,
+          "value": "PoNumber"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record locked.",
+          "validFor": null,
+          "value": "locked"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record unlocked.",
+          "validFor": null,
+          "value": "unlocked"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Second Name for Guest User",
+          "validFor": null,
+          "value": "GuestSecondName"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Status",
+          "validFor": null,
+          "value": "Status"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Store",
+          "validFor": null,
+          "value": "WebStore"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Total Charge Amount in Cart",
+          "validFor": null,
+          "value": "TotalChargeAmount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Total Charge Tax Amount in Cart",
+          "validFor": null,
+          "value": "TotalChargeTaxAmount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Total Line Items with Errors",
+          "validFor": null,
+          "value": "TotalLineItemsWithErrors"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Total List Amount in Cart",
+          "validFor": null,
+          "value": "TotalListAmount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Total Product Amount in Cart",
+          "validFor": null,
+          "value": "TotalProductAmount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Total Product Tax Amount in Cart",
+          "validFor": null,
+          "value": "TotalProductTaxAmount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Total Quantity in the Cart",
+          "validFor": null,
+          "value": "TotalProductCount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Type",
+          "validFor": null,
+          "value": "Type"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Unique Products(SKUs) in the Cart",
+          "validFor": null,
+          "value": "UniqueProductCount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Universally Unique Identifier for Guest User",
+          "validFor": null,
+          "value": "UniversallyUniqueIdentifier"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Version used to create the entity",
+          "validFor": null,
+          "value": "CreatedWithAppVersion"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Old Value",
+      "name": "OldValue",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "anyType"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "New Value",
+      "name": "NewValue",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "anyType"
+    }
+  ],
+  "label": "__MISSING LABEL__ PropertyFile - val WebCart not found in section StandardHistoryLabel",
+  "childRelationships": [],
+  "custom": false,
+  "name": "WebCartHistory",
+  "queryable": true
+}

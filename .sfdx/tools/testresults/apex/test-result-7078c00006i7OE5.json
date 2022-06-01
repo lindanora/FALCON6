@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Tue May 17 2022 8:35:20 PM",
+    "testExecutionTimeInMs": 271,
+    "testTotalTimeInMs": 271,
+    "commandTimeInMs": 187,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "7078c00006i7OE5",
+    "userId": "0058c00000AwsWBAAZ"
+  },
+  "tests": [
+    {
+      "id": "07M8c000005pAGOEA2",
+      "queueItemId": "7098c000001QA6SAAW",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006i7OE5AAM",
+      "methodName": "dmlDemoTest1",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004NN8wzEAD",
+      "apexClass": {
+        "id": "01p8c00000Rj302AAB",
+        "name": "DmlDemoTest",
+        "namespacePrefix": null,
+        "fullName": "DmlDemoTest"
+      },
+      "runTime": 271,
+      "testTimestamp": "2022-05-18T01:35:23.000+0000",
+      "fullName": "DmlDemoTest.dmlDemoTest1"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "outcome": "Skipped",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 0,
+    "skipped": 1,
+    "passRate": "0%",
+    "failRate": "0%",
+    "skipRate": "100%",
+    "testStartTime": "Tue May 17 2022 9:13:05 PM",
+    "testExecutionTimeInMs": 0,
+    "testTotalTimeInMs": 0,
+    "commandTimeInMs": 164,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "7078c00006i7TLX",
+    "userId": "0058c00000AwsWBAAZ"
+  },
+  "tests": [
+    {
+      "id": "07M8c000005pAJrEAM",
+      "queueItemId": "7098c000001QA76AAG",
+      "stackTrace": null,
+      "message": "Method dmlDemoTest2 does not exist in the the apex class with Id :01p8c00000Rj302",
+      "asyncApexJobId": "7078c00006i7TLXAA2",
+      "methodName": "dmlDemoTest2",
+      "outcome": "Skip",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8c00000Rj302AAB",
+        "name": "DmlDemoTest",
+        "namespacePrefix": null,
+        "fullName": "DmlDemoTest"
+      },
+      "runTime": 0,
+      "testTimestamp": "2022-05-18T02:13:06.000+0000",
+      "fullName": "DmlDemoTest.dmlDemoTest2",
+      "diagnostic": {
+        "exceptionMessage": "Method dmlDemoTest2 does not exist in the the apex class with Id :01p8c00000Rj302",
+        "exceptionStackTrace": null,
+        "compileProblem": ""
+      }
+    }
+  ]
+}

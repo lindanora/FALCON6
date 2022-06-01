@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Tue May 17 2022 7:59:50 PM",
+    "testExecutionTimeInMs": 22,
+    "testTotalTimeInMs": 22,
+    "commandTimeInMs": 262,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "7078c00006i7J8d",
+    "userId": "0058c00000AwsWBAAZ"
+  },
+  "tests": [
+    {
+      "id": "07M8c000005pAF6EAM",
+      "queueItemId": "7098c000001QA5PAAW",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006i7J8dAAE",
+      "methodName": "addTest2",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004NN8qmEAD",
+      "apexClass": {
+        "id": "01p8c00000Rj2gqAAB",
+        "name": "CalculatorTest",
+        "namespacePrefix": null,
+        "fullName": "CalculatorTest"
+      },
+      "runTime": 22,
+      "testTimestamp": "2022-05-18T00:59:50.000+0000",
+      "fullName": "CalculatorTest.addTest2"
+    }
+  ]
+}

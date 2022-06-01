@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "outcome": "Skipped",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 0,
+    "skipped": 1,
+    "passRate": "0%",
+    "failRate": "0%",
+    "skipRate": "100%",
+    "testStartTime": "Tue May 17 2022 8:02:27 PM",
+    "testExecutionTimeInMs": 0,
+    "testTotalTimeInMs": 0,
+    "commandTimeInMs": 170,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "7078c00006i7JiR",
+    "userId": "0058c00000AwsWBAAZ"
+  },
+  "tests": [
+    {
+      "id": "07M8c000005pAFBEA2",
+      "queueItemId": "7098c000001QA5UAAW",
+      "stackTrace": null,
+      "message": "Method addTest3 does not exist in the the apex class with Id :01p8c00000Rj2gq",
+      "asyncApexJobId": "7078c00006i7JiRAAU",
+      "methodName": "addTest3",
+      "outcome": "Skip",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8c00000Rj2gqAAB",
+        "name": "CalculatorTest",
+        "namespacePrefix": null,
+        "fullName": "CalculatorTest"
+      },
+      "runTime": 0,
+      "testTimestamp": "2022-05-18T01:02:27.000+0000",
+      "fullName": "CalculatorTest.addTest3",
+      "diagnostic": {
+        "exceptionMessage": "Method addTest3 does not exist in the the apex class with Id :01p8c00000Rj2gq",
+        "exceptionStackTrace": null,
+        "compileProblem": ""
+      }
+    }
+  ]
+}

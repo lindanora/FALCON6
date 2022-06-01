@@ -1,0 +1,61 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 2,
+    "passing": 2,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Thu May 19 2022 8:41:29 PM",
+    "testExecutionTimeInMs": 1987,
+    "testTotalTimeInMs": 1987,
+    "commandTimeInMs": 169,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "7078c00006jVORz",
+    "userId": "0058c00000AwsWBAAZ"
+  },
+  "tests": [
+    {
+      "id": "07M8c000005pEkSEAU",
+      "queueItemId": "7098c000001QAZCAA4",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006jVORzAAO",
+      "methodName": "sampleSoql4TEST",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004NNKz7EAH",
+      "apexClass": {
+        "id": "01p8c00000Rj36FAAR",
+        "name": "SoqlDemo2Test",
+        "namespacePrefix": null,
+        "fullName": "SoqlDemo2Test"
+      },
+      "runTime": 1926,
+      "testTimestamp": "2022-05-20T01:41:35.000+0000",
+      "fullName": "SoqlDemo2Test.sampleSoql4TEST"
+    },
+    {
+      "id": "07M8c000005pEkTEAU",
+      "queueItemId": "7098c000001QAZCAA4",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006jVORzAAO",
+      "methodName": "soqlDemoTest1",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004NNKz7EAH",
+      "apexClass": {
+        "id": "01p8c00000Rj36FAAR",
+        "name": "SoqlDemo2Test",
+        "namespacePrefix": null,
+        "fullName": "SoqlDemo2Test"
+      },
+      "runTime": 61,
+      "testTimestamp": "2022-05-20T01:41:37.000+0000",
+      "fullName": "SoqlDemo2Test.soqlDemoTest1"
+    }
+  ]
+}

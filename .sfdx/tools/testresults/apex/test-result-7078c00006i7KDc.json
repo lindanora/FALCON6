@@ -1,0 +1,99 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 4,
+    "passing": 4,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Tue May 17 2022 8:04:43 PM",
+    "testExecutionTimeInMs": 53,
+    "testTotalTimeInMs": 53,
+    "commandTimeInMs": 161,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "7078c00006i7KDc",
+    "userId": "0058c00000AwsWBAAZ"
+  },
+  "tests": [
+    {
+      "id": "07M8c000005pAFQEA2",
+      "queueItemId": "7098c000001QA5jAAG",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006i7KDcAAM",
+      "methodName": "addTest",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004NN8rVEAT",
+      "apexClass": {
+        "id": "01p8c00000Rj2gqAAB",
+        "name": "CalculatorTest",
+        "namespacePrefix": null,
+        "fullName": "CalculatorTest"
+      },
+      "runTime": 35,
+      "testTimestamp": "2022-05-18T01:04:43.000+0000",
+      "fullName": "CalculatorTest.addTest"
+    },
+    {
+      "id": "07M8c000005pAFREA2",
+      "queueItemId": "7098c000001QA5jAAG",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006i7KDcAAM",
+      "methodName": "addTest2",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004NN8rVEAT",
+      "apexClass": {
+        "id": "01p8c00000Rj2gqAAB",
+        "name": "CalculatorTest",
+        "namespacePrefix": null,
+        "fullName": "CalculatorTest"
+      },
+      "runTime": 5,
+      "testTimestamp": "2022-05-18T01:04:43.000+0000",
+      "fullName": "CalculatorTest.addTest2"
+    },
+    {
+      "id": "07M8c000005pAFSEA2",
+      "queueItemId": "7098c000001QA5jAAG",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006i7KDcAAM",
+      "methodName": "addTest3",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004NN8rVEAT",
+      "apexClass": {
+        "id": "01p8c00000Rj2gqAAB",
+        "name": "CalculatorTest",
+        "namespacePrefix": null,
+        "fullName": "CalculatorTest"
+      },
+      "runTime": 7,
+      "testTimestamp": "2022-05-18T01:04:43.000+0000",
+      "fullName": "CalculatorTest.addTest3"
+    },
+    {
+      "id": "07M8c000005pAFTEA2",
+      "queueItemId": "7098c000001QA5jAAG",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006i7KDcAAM",
+      "methodName": "testMessage",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004NN8rVEAT",
+      "apexClass": {
+        "id": "01p8c00000Rj2gqAAB",
+        "name": "CalculatorTest",
+        "namespacePrefix": null,
+        "fullName": "CalculatorTest"
+      },
+      "runTime": 6,
+      "testTimestamp": "2022-05-18T01:04:43.000+0000",
+      "fullName": "CalculatorTest.testMessage"
+    }
+  ]
+}

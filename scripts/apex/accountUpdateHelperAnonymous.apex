@@ -1,0 +1,1 @@
+AccountUpdateHelper.updateAccountWebsite(accIds);

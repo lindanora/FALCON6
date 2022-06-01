@@ -1,0 +1,1 @@
+IterationExercise2.getPerfectAverage(5, 15);

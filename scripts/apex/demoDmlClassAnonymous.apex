@@ -1,0 +1,2 @@
+DemoDmlClass.dmlInsert('es');
+
