@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Jun 16 2022 1:31:21 PM",
+    "testExecutionTimeInMs": 346,
+    "testTotalTimeInMs": 346,
+    "commandTimeInMs": 171,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "7078c00006zcrO9",
+    "userId": "0058c00000AwsWBAAZ",
+    "totalLines": 38,
+    "coveredLines": 29,
+    "testRunCoverage": "76%",
+    "orgWideCoverage": "30%"
+  },
+  "tests": [
+    {
+      "id": "07M8c000005prwrEAA",
+      "queueItemId": "7098c000001QJlSAAW",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006zcrO9AAI",
+      "methodName": "testMethod1",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004O5DuLEAV",
+      "apexClass": {
+        "id": "01p8c00000Rj4NIAAZ",
+        "name": "SPTriggerHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "SPTriggerHandlerTest"
+      },
+      "runTime": 346,
+      "testTimestamp": "2022-06-16T18:31:22.000+0000",
+      "fullName": "SPTriggerHandlerTest.testMethod1",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "SalesforceProjectTrigger",
+          "apexClassOrTriggerId": "01q8c000001KkKAAA0",
+          "apexTestClassId": "01p8c00000Rj4NIAAZ",
+          "apexTestMethodName": "testMethod1",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              4,
+              6,
+              8,
+              9
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "SalesforceProjectTriggerHandler",
+          "apexClassOrTriggerId": "01p8c00000Rj0boAAB",
+          "apexTestClassId": "01p8c00000Rj4NIAAZ",
+          "apexTestMethodName": "testMethod1",
+          "numLinesCovered": 24,
+          "numLinesUncovered": 9,
+          "percentage": "73%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              17,
+              18,
+              22,
+              24,
+              25,
+              26,
+              29,
+              32,
+              37,
+              38,
+              41,
+              46
+            ],
+            "uncoveredLines": [
+              42,
+              43,
+              47,
+              51,
+              52,
+              53,
+              54,
+              56,
+              57
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8c00000Rj0boAAB",
+      "name": "SalesforceProjectTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 24,
+      "numLinesUncovered": 9,
+      "percentage": "73%",
+      "coveredLines": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        22,
+        24,
+        25,
+        26,
+        29,
+        32,
+        37,
+        38,
+        41,
+        46
+      ],
+      "uncoveredLines": [
+        42,
+        43,
+        47,
+        51,
+        52,
+        53,
+        54,
+        56,
+        57
+      ]
+    },
+    {
+      "apexId": "01q8c000001KkKAAA0",
+      "name": "SalesforceProjectTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        4,
+        6,
+        8,
+        9
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

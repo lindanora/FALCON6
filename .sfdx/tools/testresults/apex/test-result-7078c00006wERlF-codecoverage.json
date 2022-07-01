@@ -1,0 +1,21 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "SelectAccountContact",
+      "apexClassOrTriggerId": "01p8c00000TGLXtAAP",
+      "apexTestClassId": "01p8c00000TGLpzAAH",
+      "apexTestMethodName": "selectAccContactsTest",
+      "numLinesCovered": 3,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          3,
+          6
+        ],
+        "uncoveredLines": []
+      }
+    }
+  ]
+]

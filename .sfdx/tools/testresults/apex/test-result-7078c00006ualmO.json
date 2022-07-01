@@ -1,0 +1,69 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 2,
+    "passing": 1,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "50%",
+    "failRate": "50%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Jun 07 2022 8:01:36 PM",
+    "testExecutionTimeInMs": 47,
+    "testTotalTimeInMs": 47,
+    "commandTimeInMs": 165,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "7078c00006ualmO",
+    "userId": "0058c00000AwsWBAAZ"
+  },
+  "tests": [
+    {
+      "id": "07M8c000005pdNOEAY",
+      "queueItemId": "7098c000001QEIIAA4",
+      "stackTrace": "Class.AnimalsCalloutsTest.testFetchAnimalsFailure: line 23, column 1",
+      "message": "System.AssertException: Assertion Failed: Expected: 404, Actual: 200",
+      "asyncApexJobId": "7078c00006ualmOAAQ",
+      "methodName": "testFetchAnimalsFailure",
+      "outcome": "Fail",
+      "apexLogId": "07L8c00004O4QyYEAV",
+      "apexClass": {
+        "id": "01p8c00000RjN2tAAF",
+        "name": "AnimalsCalloutsTest",
+        "namespacePrefix": null,
+        "fullName": "AnimalsCalloutsTest"
+      },
+      "runTime": 36,
+      "testTimestamp": "2022-06-08T01:01:36.000+0000",
+      "fullName": "AnimalsCalloutsTest.testFetchAnimalsFailure",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Expected: 404, Actual: 200",
+        "exceptionStackTrace": "Class.AnimalsCalloutsTest.testFetchAnimalsFailure: line 23, column 1",
+        "className": "AnimalsCalloutsTest",
+        "compileProblem": "",
+        "lineNumber": 23,
+        "columnNumber": 1
+      }
+    },
+    {
+      "id": "07M8c000005pdNPEAY",
+      "queueItemId": "7098c000001QEIIAA4",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006ualmOAAQ",
+      "methodName": "testFetchAnimalsSuccess",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004O4QyYEAV",
+      "apexClass": {
+        "id": "01p8c00000RjN2tAAF",
+        "name": "AnimalsCalloutsTest",
+        "namespacePrefix": null,
+        "fullName": "AnimalsCalloutsTest"
+      },
+      "runTime": 11,
+      "testTimestamp": "2022-06-08T01:01:36.000+0000",
+      "fullName": "AnimalsCalloutsTest.testFetchAnimalsSuccess"
+    }
+  ]
+}

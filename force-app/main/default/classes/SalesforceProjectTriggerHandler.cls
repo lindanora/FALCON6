@@ -50,6 +50,7 @@ public  class SalesforceProjectTriggerHandler {
    @future
    private static void updateTicketStatusCompleted(set<id> spIds) {
        List<Salesforce_Ticket__c> listST = [select id, status__c, salesforce_project__c from Salesforce_Ticket__c where Salesforce_Project__c in :spIds and status__c != 'Completed'];
+
        for (salesforce_ticket__c st : listST) {
            st.Status__c = 'Completed';
        }

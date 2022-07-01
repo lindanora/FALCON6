@@ -1,0 +1,63 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "AnimalsCallouts",
+      "apexClassOrTriggerId": "01p8c00000RjDbzAAF",
+      "apexTestClassId": "01p8c00000RjN2tAAF",
+      "apexTestMethodName": "testFetchAnimalsFailure",
+      "numLinesCovered": 12,
+      "numLinesUncovered": 32,
+      "percentage": "27%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          3,
+          4,
+          5,
+          43,
+          45,
+          46,
+          47,
+          50,
+          53,
+          57,
+          71
+        ],
+        "uncoveredLines": [
+          7,
+          9,
+          10,
+          11,
+          14,
+          17,
+          21,
+          22,
+          28,
+          31,
+          32,
+          34,
+          58,
+          59,
+          61,
+          62,
+          73,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          83,
+          86,
+          90,
+          92,
+          93,
+          95,
+          96,
+          102,
+          106
+        ]
+      }
+    }
+  ]
+]

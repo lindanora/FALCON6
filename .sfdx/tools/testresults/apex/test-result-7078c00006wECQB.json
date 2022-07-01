@@ -1,0 +1,204 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 3,
+    "passing": 1,
+    "failing": 2,
+    "skipped": 0,
+    "passRate": "33%",
+    "failRate": "67%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Jun 10 2022 2:08:11 PM",
+    "testExecutionTimeInMs": 79,
+    "testTotalTimeInMs": 79,
+    "commandTimeInMs": 168,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "7078c00006wECQB",
+    "userId": "0058c00000AwsWBAAZ",
+    "totalLines": 10,
+    "coveredLines": 10,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "14%"
+  },
+  "tests": [
+    {
+      "id": "07M8c000005pjT3EAI",
+      "queueItemId": "7098c000001QIWUAA4",
+      "stackTrace": "Class.StringConcateDemoTest.testConcate: line 7, column 1",
+      "message": "System.AssertException: Assertion Failed",
+      "asyncApexJobId": "7078c00006wECQBAA4",
+      "methodName": "testConcate",
+      "outcome": "Fail",
+      "apexLogId": "07L8c00004O4ikaEAB",
+      "apexClass": {
+        "id": "01p8c00000TGB1dAAH",
+        "name": "StringConcateDemoTest",
+        "namespacePrefix": null,
+        "fullName": "StringConcateDemoTest"
+      },
+      "runTime": 67,
+      "testTimestamp": "2022-06-10T19:08:11.000+0000",
+      "fullName": "StringConcateDemoTest.testConcate",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed",
+        "exceptionStackTrace": "Class.StringConcateDemoTest.testConcate: line 7, column 1",
+        "className": "StringConcateDemoTest",
+        "compileProblem": "",
+        "lineNumber": 7,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "StringConcateDemo",
+          "apexClassOrTriggerId": "01p8c00000TEsjpAAD",
+          "apexTestClassId": "01p8c00000TGB1dAAH",
+          "apexTestMethodName": "testConcate",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 6,
+          "percentage": "40%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              4,
+              5,
+              6
+            ],
+            "uncoveredLines": [
+              8,
+              10,
+              11,
+              12,
+              14,
+              15
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M8c000005pjT4EAI",
+      "queueItemId": "7098c000001QIWUAA4",
+      "stackTrace": "Class.StringConcateDemoTest.testConcateLower: line 16, column 1",
+      "message": "System.AssertException: Assertion Failed: Expected: test, method, Actual: test, method1",
+      "asyncApexJobId": "7078c00006wECQBAA4",
+      "methodName": "testConcateLower",
+      "outcome": "Fail",
+      "apexLogId": "07L8c00004O4ikaEAB",
+      "apexClass": {
+        "id": "01p8c00000TGB1dAAH",
+        "name": "StringConcateDemoTest",
+        "namespacePrefix": null,
+        "fullName": "StringConcateDemoTest"
+      },
+      "runTime": 5,
+      "testTimestamp": "2022-06-10T19:08:12.000+0000",
+      "fullName": "StringConcateDemoTest.testConcateLower",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Expected: test, method, Actual: test, method1",
+        "exceptionStackTrace": "Class.StringConcateDemoTest.testConcateLower: line 16, column 1",
+        "className": "StringConcateDemoTest",
+        "compileProblem": "",
+        "lineNumber": 16,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "StringConcateDemo",
+          "apexClassOrTriggerId": "01p8c00000TEsjpAAD",
+          "apexTestClassId": "01p8c00000TGB1dAAH",
+          "apexTestMethodName": "testConcateLower",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 5,
+          "percentage": "50%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              8,
+              10,
+              11,
+              12
+            ],
+            "uncoveredLines": [
+              4,
+              5,
+              6,
+              14,
+              15
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M8c000005pjT5EAI",
+      "queueItemId": "7098c000001QIWUAA4",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006wECQBAA4",
+      "methodName": "testConcatePrint",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004O4ikaEAB",
+      "apexClass": {
+        "id": "01p8c00000TGB1dAAH",
+        "name": "StringConcateDemoTest",
+        "namespacePrefix": null,
+        "fullName": "StringConcateDemoTest"
+      },
+      "runTime": 7,
+      "testTimestamp": "2022-06-10T19:08:12.000+0000",
+      "fullName": "StringConcateDemoTest.testConcatePrint",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "StringConcateDemo",
+          "apexClassOrTriggerId": "01p8c00000TEsjpAAD",
+          "apexTestClassId": "01p8c00000TGB1dAAH",
+          "apexTestMethodName": "testConcatePrint",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 6,
+          "percentage": "40%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              8,
+              14,
+              15
+            ],
+            "uncoveredLines": [
+              4,
+              5,
+              6,
+              10,
+              11,
+              12
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8c00000TEsjpAAD",
+      "name": "StringConcateDemo",
+      "type": "ApexClass",
+      "numLinesCovered": 10,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        10,
+        11,
+        12,
+        14,
+        15
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Jun 10 2022 2:14:01 PM",
+    "testExecutionTimeInMs": 64,
+    "testTotalTimeInMs": 64,
+    "commandTimeInMs": 148,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "7078c00006wECM3",
+    "userId": "0058c00000AwsWBAAZ",
+    "totalLines": 10,
+    "coveredLines": 4,
+    "testRunCoverage": "40%",
+    "orgWideCoverage": "14%"
+  },
+  "tests": [
+    {
+      "id": "07M8c000005pjU6EAI",
+      "queueItemId": "7098c000001QIXXAA4",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006wECM3AAO",
+      "methodName": "testConcate",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004O4j2aEAB",
+      "apexClass": {
+        "id": "01p8c00000TGB1dAAH",
+        "name": "StringConcateDemoTest",
+        "namespacePrefix": null,
+        "fullName": "StringConcateDemoTest"
+      },
+      "runTime": 64,
+      "testTimestamp": "2022-06-10T19:14:02.000+0000",
+      "fullName": "StringConcateDemoTest.testConcate",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "StringConcateDemo",
+          "apexClassOrTriggerId": "01p8c00000TEsjpAAD",
+          "apexTestClassId": "01p8c00000TGB1dAAH",
+          "apexTestMethodName": "testConcate",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 6,
+          "percentage": "40%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              4,
+              5,
+              6
+            ],
+            "uncoveredLines": [
+              8,
+              10,
+              11,
+              12,
+              14,
+              15
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8c00000TEsjpAAD",
+      "name": "StringConcateDemo",
+      "type": "ApexClass",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 6,
+      "percentage": "40%",
+      "coveredLines": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "uncoveredLines": [
+        8,
+        10,
+        11,
+        12,
+        14,
+        15
+      ]
+    }
+  ]
+}

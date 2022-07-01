@@ -1,0 +1,22 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "StringConcateDemo",
+      "apexClassOrTriggerId": "01p8c00000TEsjpAAD",
+      "apexTestClassId": "01p8c00000TGB1dAAH",
+      "apexTestMethodName": "testConcate",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "uncoveredLines": []
+      }
+    }
+  ]
+]

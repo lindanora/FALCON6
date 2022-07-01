@@ -20,9 +20,8 @@ public class SPTriggerHandlerTest {
         SalesforceProjectTriggerHandler.updateProjectDescription(spIds);
         Test.stopTest();
 
+        // to assert, we need to fetch the records to see if the description is updated
         List<Salesforce_Project__c> sps = [select id, description__c from Salesforce_Project__c];
         system.assert(sps[0].Description__c.containsIgnoreCase('future'));
-        
-
     }
 }

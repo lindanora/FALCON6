@@ -1,0 +1,325 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 2,
+    "passing": 1,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "50%",
+    "failRate": "50%",
+    "skipRate": "0%",
+    "testStartTime": "Sun Jun 12 2022 9:04:52 AM",
+    "testExecutionTimeInMs": 39781,
+    "testTotalTimeInMs": 39781,
+    "commandTimeInMs": 182,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "7078c00006x3Nbh",
+    "userId": "0058c00000AwsWBAAZ",
+    "totalLines": 41,
+    "coveredLines": 22,
+    "testRunCoverage": "54%",
+    "orgWideCoverage": "29%"
+  },
+  "tests": [
+    {
+      "id": "07M8c000005pknJEAQ",
+      "queueItemId": "7098c000001QImNAAW",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006x3NbhAAE",
+      "methodName": "testTaskCreate",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004O4mBxEAJ",
+      "apexClass": {
+        "id": "01p8c00000TGS1WAAX",
+        "name": "CreateTaskForContactTest",
+        "namespacePrefix": null,
+        "fullName": "CreateTaskForContactTest"
+      },
+      "runTime": 733,
+      "testTimestamp": "2022-06-12T14:04:53.000+0000",
+      "fullName": "CreateTaskForContactTest.testTaskCreate",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "ContactTrigger",
+          "apexClassOrTriggerId": "01q8c000001Kk3dAAC",
+          "apexTestClassId": "01p8c00000TGS1WAAX",
+          "apexTestMethodName": "testTaskCreate",
+          "numLinesCovered": 8,
+          "numLinesUncovered": 18,
+          "percentage": "31%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              6,
+              7,
+              8,
+              9,
+              10,
+              15,
+              23
+            ],
+            "uncoveredLines": [
+              3,
+              4,
+              11,
+              16,
+              17,
+              18,
+              24,
+              25,
+              27,
+              28,
+              29,
+              30,
+              32,
+              33,
+              34,
+              35,
+              37,
+              38
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "CreateTaskForContact",
+          "apexClassOrTriggerId": "01p8c00000TGS1RAAX",
+          "apexTestClassId": "01p8c00000TGS1WAAX",
+          "apexTestMethodName": "testTaskCreate",
+          "numLinesCovered": 13,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              15,
+              16
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "ContactTrigger1",
+          "apexClassOrTriggerId": "01q8c000001KkK5AAK",
+          "apexTestClassId": "01p8c00000TGS1WAAX",
+          "apexTestMethodName": "testTaskCreate",
+          "numLinesCovered": 1,
+          "numLinesUncovered": 1,
+          "percentage": "50%",
+          "coverage": {
+            "coveredLines": [
+              2
+            ],
+            "uncoveredLines": [
+              3
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M8c000005pknKEAQ",
+      "queueItemId": "7098c000001QImNAAW",
+      "stackTrace": "Class.CreateTaskForContact.createTasks: line 16, column 1\nClass.CreateTaskForContactTest.testTaskCreate2: line 36, column 1",
+      "message": "System.LimitException: Too many DML rows: 10001",
+      "asyncApexJobId": "7078c00006x3NbhAAE",
+      "methodName": "testTaskCreate2",
+      "outcome": "Fail",
+      "apexLogId": "07L8c00004O4mBxEAJ",
+      "apexClass": {
+        "id": "01p8c00000TGS1WAAX",
+        "name": "CreateTaskForContactTest",
+        "namespacePrefix": null,
+        "fullName": "CreateTaskForContactTest"
+      },
+      "runTime": 39048,
+      "testTimestamp": "2022-06-12T14:04:54.000+0000",
+      "fullName": "CreateTaskForContactTest.testTaskCreate2",
+      "diagnostic": {
+        "exceptionMessage": "System.LimitException: Too many DML rows: 10001",
+        "exceptionStackTrace": "Class.CreateTaskForContact.createTasks: line 16, column 1\nClass.CreateTaskForContactTest.testTaskCreate2: line 36, column 1",
+        "className": "CreateTaskForContact",
+        "compileProblem": "",
+        "lineNumber": 16,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "CreateTaskForContact",
+          "apexClassOrTriggerId": "01p8c00000TGS1RAAX",
+          "apexTestClassId": "01p8c00000TGS1WAAX",
+          "apexTestMethodName": "testTaskCreate2",
+          "numLinesCovered": 13,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              15,
+              16
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "ContactTrigger",
+          "apexClassOrTriggerId": "01q8c000001Kk3dAAC",
+          "apexTestClassId": "01p8c00000TGS1WAAX",
+          "apexTestMethodName": "testTaskCreate2",
+          "numLinesCovered": 8,
+          "numLinesUncovered": 18,
+          "percentage": "31%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              6,
+              7,
+              8,
+              9,
+              10,
+              15,
+              23
+            ],
+            "uncoveredLines": [
+              3,
+              4,
+              11,
+              16,
+              17,
+              18,
+              24,
+              25,
+              27,
+              28,
+              29,
+              30,
+              32,
+              33,
+              34,
+              35,
+              37,
+              38
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "ContactTrigger1",
+          "apexClassOrTriggerId": "01q8c000001KkK5AAK",
+          "apexTestClassId": "01p8c00000TGS1WAAX",
+          "apexTestMethodName": "testTaskCreate2",
+          "numLinesCovered": 1,
+          "numLinesUncovered": 1,
+          "percentage": "50%",
+          "coverage": {
+            "coveredLines": [
+              2
+            ],
+            "uncoveredLines": [
+              3
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8c00000TGS1RAAX",
+      "name": "CreateTaskForContact",
+      "type": "ApexClass",
+      "numLinesCovered": 13,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01q8c000001Kk3dAAC",
+      "name": "ContactTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 8,
+      "numLinesUncovered": 18,
+      "percentage": "31%",
+      "coveredLines": [
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        15,
+        23
+      ],
+      "uncoveredLines": [
+        3,
+        4,
+        11,
+        16,
+        17,
+        18,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        32,
+        33,
+        34,
+        35,
+        37,
+        38
+      ]
+    },
+    {
+      "apexId": "01q8c000001KkK5AAK",
+      "name": "ContactTrigger1",
+      "type": "ApexTrigger",
+      "numLinesCovered": 1,
+      "numLinesUncovered": 1,
+      "percentage": "50%",
+      "coveredLines": [
+        2
+      ],
+      "uncoveredLines": [
+        3
+      ]
+    }
+  ]
+}

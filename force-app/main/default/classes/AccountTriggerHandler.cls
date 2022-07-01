@@ -26,7 +26,7 @@ public class AccountTriggerHandler {
             }
         }
     }
-    public static void updateVipForAllAcontacts(list<account> accTriggerNew, list<account> accTriggerOld, 
+    public static void updateVipForAllContacts(list<account> accTriggerNew, list<account> accTriggerOld, 
                                     Map<id, account> accTriggerNewMap, map<id, account> accTriggerOldMap){
             system.debug('update all contact\'s VIP field');
             set<id> setAccIds = new Set<id>();

@@ -1,0 +1,61 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 2,
+    "passing": 2,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Jun 07 2022 8:08:52 PM",
+    "testExecutionTimeInMs": 54,
+    "testTotalTimeInMs": 54,
+    "commandTimeInMs": 152,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "7078c00006uan0k",
+    "userId": "0058c00000AwsWBAAZ"
+  },
+  "tests": [
+    {
+      "id": "07M8c000005pdMvEAI",
+      "queueItemId": "7098c000001QEIwAAO",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006uan0kAAA",
+      "methodName": "testFetchAnimalsFailure",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004O4QuhEAF",
+      "apexClass": {
+        "id": "01p8c00000RjN2tAAF",
+        "name": "AnimalsCalloutsTest",
+        "namespacePrefix": null,
+        "fullName": "AnimalsCalloutsTest"
+      },
+      "runTime": 38,
+      "testTimestamp": "2022-06-08T01:08:52.000+0000",
+      "fullName": "AnimalsCalloutsTest.testFetchAnimalsFailure"
+    },
+    {
+      "id": "07M8c000005pdMwEAI",
+      "queueItemId": "7098c000001QEIwAAO",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006uan0kAAA",
+      "methodName": "testFetchAnimalsSuccess",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004O4QuhEAF",
+      "apexClass": {
+        "id": "01p8c00000RjN2tAAF",
+        "name": "AnimalsCalloutsTest",
+        "namespacePrefix": null,
+        "fullName": "AnimalsCalloutsTest"
+      },
+      "runTime": 16,
+      "testTimestamp": "2022-06-08T01:08:53.000+0000",
+      "fullName": "AnimalsCalloutsTest.testFetchAnimalsSuccess"
+    }
+  ]
+}

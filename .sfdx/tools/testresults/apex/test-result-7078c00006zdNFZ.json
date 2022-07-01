@@ -1,0 +1,259 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Jun 16 2022 5:29:40 PM",
+    "testExecutionTimeInMs": 10730,
+    "testTotalTimeInMs": 10730,
+    "commandTimeInMs": 172,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "7078c00006zdNFZ",
+    "userId": "0058c00000AwsWBAAZ",
+    "totalLines": 43,
+    "coveredLines": 37,
+    "testRunCoverage": "86%",
+    "orgWideCoverage": "31%"
+  },
+  "tests": [
+    {
+      "id": "07M8c000005psLIEAY",
+      "queueItemId": "7098c000001QJmQAAW",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006zdNFZAA2",
+      "methodName": "testMethod1",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004O5G8ZEAV",
+      "apexClass": {
+        "id": "01p8c00000Rj67CAAR",
+        "name": "AccountsBatchTest",
+        "namespacePrefix": null,
+        "fullName": "AccountsBatchTest"
+      },
+      "runTime": 10730,
+      "testTimestamp": "2022-06-16T22:29:41.000+0000",
+      "fullName": "AccountsBatchTest.testMethod1",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AccountTriggerHandler",
+          "apexClassOrTriggerId": "01p8c00000Rj0b0AAB",
+          "apexTestClassId": "01p8c00000Rj67CAAR",
+          "apexTestMethodName": "testMethod1",
+          "numLinesCovered": 19,
+          "numLinesUncovered": 6,
+          "percentage": "76%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              7,
+              8,
+              9,
+              10,
+              12,
+              13,
+              15,
+              18,
+              19,
+              24,
+              25,
+              29,
+              32,
+              33,
+              34,
+              39,
+              41,
+              47
+            ],
+            "uncoveredLines": [
+              21,
+              35,
+              42,
+              43,
+              45,
+              48
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountsBatch",
+          "apexClassOrTriggerId": "01p8c00000Rj5wTAAR",
+          "apexTestClassId": "01p8c00000Rj67CAAR",
+          "apexTestMethodName": "testMethod1",
+          "numLinesCovered": 14,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              5,
+              7,
+              9,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              19,
+              21,
+              24
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTrigger3",
+          "apexClassOrTriggerId": "01q8c000001Kk2VAAS",
+          "apexTestClassId": "01p8c00000Rj67CAAR",
+          "apexTestMethodName": "testMethod1",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 0,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTrigger1",
+          "apexClassOrTriggerId": "01q8c000001KjzgAAC",
+          "apexTestClassId": "01p8c00000Rj67CAAR",
+          "apexTestMethodName": "testMethod1",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              4,
+              8,
+              9
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTrigger2",
+          "apexClassOrTriggerId": "01q8c000001KjzWAAS",
+          "apexTestClassId": "01p8c00000Rj67CAAR",
+          "apexTestMethodName": "testMethod1",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 0,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8c00000Rj0b0AAB",
+      "name": "AccountTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 19,
+      "numLinesUncovered": 6,
+      "percentage": "76%",
+      "coveredLines": [
+        2,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        15,
+        18,
+        19,
+        24,
+        25,
+        29,
+        32,
+        33,
+        34,
+        39,
+        41,
+        47
+      ],
+      "uncoveredLines": [
+        21,
+        35,
+        42,
+        43,
+        45,
+        48
+      ]
+    },
+    {
+      "apexId": "01p8c00000Rj5wTAAR",
+      "name": "AccountsBatch",
+      "type": "ApexClass",
+      "numLinesCovered": 14,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        3,
+        5,
+        7,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        21,
+        24
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01q8c000001KjzWAAS",
+      "name": "AccountTrigger2",
+      "type": "ApexTrigger",
+      "numLinesCovered": 0,
+      "numLinesUncovered": 0,
+      "percentage": "0%",
+      "coveredLines": [],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01q8c000001KjzgAAC",
+      "name": "AccountTrigger1",
+      "type": "ApexTrigger",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        4,
+        8,
+        9
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01q8c000001Kk2VAAS",
+      "name": "AccountTrigger3",
+      "type": "ApexTrigger",
+      "numLinesCovered": 0,
+      "numLinesUncovered": 0,
+      "percentage": "0%",
+      "coveredLines": [],
+      "uncoveredLines": []
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Jun 10 2022 12:56:59 PM",
+    "testExecutionTimeInMs": 30,
+    "testTotalTimeInMs": 30,
+    "commandTimeInMs": 170,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "7078c00006wDzK9",
+    "userId": "0058c00000AwsWBAAZ",
+    "totalLines": 4,
+    "coveredLines": 4,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "14%"
+  },
+  "tests": [
+    {
+      "id": "07M8c000005pjS5EAI",
+      "queueItemId": "7098c000001QGmUAAW",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006wDzK9AAK",
+      "methodName": "testConcate",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004O4hkrEAB",
+      "apexClass": {
+        "id": "01p8c00000TGB1dAAH",
+        "name": "StringConcateDemoTest",
+        "namespacePrefix": null,
+        "fullName": "StringConcateDemoTest"
+      },
+      "runTime": 30,
+      "testTimestamp": "2022-06-10T17:56:59.000+0000",
+      "fullName": "StringConcateDemoTest.testConcate",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "StringConcateDemo",
+          "apexClassOrTriggerId": "01p8c00000TEsjpAAD",
+          "apexTestClassId": "01p8c00000TGB1dAAH",
+          "apexTestMethodName": "testConcate",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8c00000TEsjpAAD",
+      "name": "StringConcateDemo",
+      "type": "ApexClass",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

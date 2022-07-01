@@ -1,0 +1,1 @@
+CreateTaskForContact.createTasks('testContact');

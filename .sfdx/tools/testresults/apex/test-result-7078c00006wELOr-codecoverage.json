@@ -1,0 +1,27 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "InsertAccountContact",
+      "apexClassOrTriggerId": "01p8c00000TGIQ6AAP",
+      "apexTestClassId": "01p8c00000TGJJfAAP",
+      "apexTestMethodName": "insertAccCntTest",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 4,
+      "percentage": "50%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "uncoveredLines": [
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    }
+  ]
+]

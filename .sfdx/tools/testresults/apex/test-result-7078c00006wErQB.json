@@ -1,0 +1,211 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Jun 10 2022 6:38:25 PM",
+    "testExecutionTimeInMs": 10387,
+    "testTotalTimeInMs": 10387,
+    "commandTimeInMs": 181,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "7078c00006wErQB",
+    "userId": "0058c00000AwsWBAAZ",
+    "totalLines": 41,
+    "coveredLines": 24,
+    "testRunCoverage": "59%",
+    "orgWideCoverage": "16%"
+  },
+  "tests": [
+    {
+      "id": "07M8c000005pjtaEAA",
+      "queueItemId": "7098c000001QIaCAAW",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006wErQBAA0",
+      "methodName": "testTaskCreate",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004O4kkREAR",
+      "apexClass": {
+        "id": "01p8c00000TGS1WAAX",
+        "name": "CreateTaskForContactTest",
+        "namespacePrefix": null,
+        "fullName": "CreateTaskForContactTest"
+      },
+      "runTime": 10387,
+      "testTimestamp": "2022-06-10T23:38:26.000+0000",
+      "fullName": "CreateTaskForContactTest.testTaskCreate",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "ContactTrigger1",
+          "apexClassOrTriggerId": "01q8c000001KkK5AAK",
+          "apexTestClassId": "01p8c00000TGS1WAAX",
+          "apexTestMethodName": "testTaskCreate",
+          "numLinesCovered": 1,
+          "numLinesUncovered": 1,
+          "percentage": "50%",
+          "coverage": {
+            "coveredLines": [
+              2
+            ],
+            "uncoveredLines": [
+              3
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "ContactTrigger",
+          "apexClassOrTriggerId": "01q8c000001Kk3dAAC",
+          "apexTestClassId": "01p8c00000TGS1WAAX",
+          "apexTestMethodName": "testTaskCreate",
+          "numLinesCovered": 8,
+          "numLinesUncovered": 18,
+          "percentage": "31%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              6,
+              7,
+              8,
+              9,
+              10,
+              15,
+              23
+            ],
+            "uncoveredLines": [
+              3,
+              4,
+              11,
+              16,
+              17,
+              18,
+              24,
+              25,
+              27,
+              28,
+              29,
+              30,
+              32,
+              33,
+              34,
+              35,
+              37,
+              38
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "CreateTaskForContact",
+          "apexClassOrTriggerId": "01p8c00000TGS1RAAX",
+          "apexTestClassId": "01p8c00000TGS1WAAX",
+          "apexTestMethodName": "testTaskCreate",
+          "numLinesCovered": 13,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              15,
+              16
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8c00000TGS1RAAX",
+      "name": "CreateTaskForContact",
+      "type": "ApexClass",
+      "numLinesCovered": 13,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01q8c000001Kk3dAAC",
+      "name": "ContactTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 10,
+      "numLinesUncovered": 16,
+      "percentage": "38%",
+      "coveredLines": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        15,
+        23
+      ],
+      "uncoveredLines": [
+        11,
+        16,
+        17,
+        18,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        32,
+        33,
+        34,
+        35,
+        37,
+        38
+      ]
+    },
+    {
+      "apexId": "01q8c000001KkK5AAK",
+      "name": "ContactTrigger1",
+      "type": "ApexTrigger",
+      "numLinesCovered": 1,
+      "numLinesUncovered": 1,
+      "percentage": "50%",
+      "coveredLines": [
+        2
+      ],
+      "uncoveredLines": [
+        3
+      ]
+    }
+  ]
+}

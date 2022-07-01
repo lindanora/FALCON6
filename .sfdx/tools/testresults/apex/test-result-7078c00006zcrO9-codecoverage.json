@@ -1,0 +1,71 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "SalesforceProjectTrigger",
+      "apexClassOrTriggerId": "01q8c000001KkKAAA0",
+      "apexTestClassId": "01p8c00000Rj4NIAAZ",
+      "apexTestMethodName": "testMethod1",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          4,
+          6,
+          8,
+          9
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "SalesforceProjectTriggerHandler",
+      "apexClassOrTriggerId": "01p8c00000Rj0boAAB",
+      "apexTestClassId": "01p8c00000Rj4NIAAZ",
+      "apexTestMethodName": "testMethod1",
+      "numLinesCovered": 24,
+      "numLinesUncovered": 9,
+      "percentage": "73%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          17,
+          18,
+          22,
+          24,
+          25,
+          26,
+          29,
+          32,
+          37,
+          38,
+          41,
+          46
+        ],
+        "uncoveredLines": [
+          42,
+          43,
+          47,
+          51,
+          52,
+          53,
+          54,
+          56,
+          57
+        ]
+      }
+    }
+  ]
+]

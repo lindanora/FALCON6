@@ -1,0 +1,81 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Jun 10 2022 3:48:24 PM",
+    "testExecutionTimeInMs": 52,
+    "testTotalTimeInMs": 52,
+    "commandTimeInMs": 159,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "7078c00006wERlF",
+    "userId": "0058c00000AwsWBAAZ",
+    "totalLines": 3,
+    "coveredLines": 3,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "15%"
+  },
+  "tests": [
+    {
+      "id": "07M8c000005pjbMEAQ",
+      "queueItemId": "7098c000001QIZTAA4",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006wERlFAAW",
+      "methodName": "selectAccContactsTest",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004O4kINEAZ",
+      "apexClass": {
+        "id": "01p8c00000TGLpzAAH",
+        "name": "SelectAccountContactTest",
+        "namespacePrefix": null,
+        "fullName": "SelectAccountContactTest"
+      },
+      "runTime": 52,
+      "testTimestamp": "2022-06-10T20:48:24.000+0000",
+      "fullName": "SelectAccountContactTest.selectAccContactsTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "SelectAccountContact",
+          "apexClassOrTriggerId": "01p8c00000TGLXtAAP",
+          "apexTestClassId": "01p8c00000TGLpzAAH",
+          "apexTestMethodName": "selectAccContactsTest",
+          "numLinesCovered": 3,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              6
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8c00000TGLXtAAP",
+      "name": "SelectAccountContact",
+      "type": "ApexClass",
+      "numLinesCovered": 3,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        3,
+        6
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

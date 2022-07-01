@@ -1,0 +1,51 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 0,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "Infinity%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Jun 07 2022 8:43:22 PM",
+    "testExecutionTimeInMs": 0,
+    "testTotalTimeInMs": 0,
+    "commandTimeInMs": 0,
+    "hostname": "https://softinnovas-17d-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006eixFEAQ",
+    "username": "lindasnora-dev@gmail.com",
+    "testRunId": "",
+    "totalLines": 0,
+    "coveredLines": 0,
+    "testRunCoverage": "0%",
+    "orgWideCoverage": "13%"
+  },
+  "tests": [
+    {
+      "id": "",
+      "queueItemId": "",
+      "stackTrace": null,
+      "message": "line 9, column 31: Method does not exist or incorrect signature: void updateVipForAllContacts(List<Account>, List<Account>, Map<Id,Account>, Map<Id,Account>) from the type AccountTriggerHandler",
+      "asyncApexJobId": "",
+      "methodName": null,
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01q8c000001KjzgAAC",
+        "name": "AccountTrigger1",
+        "namespacePrefix": null,
+        "fullName": "AccountTrigger1"
+      },
+      "runTime": -1,
+      "testTimestamp": "",
+      "fullName": "AccountTrigger1.null",
+      "diagnostic": {
+        "exceptionMessage": "line 9, column 31: Method does not exist or incorrect signature: void updateVipForAllContacts(List<Account>, List<Account>, Map<Id,Account>, Map<Id,Account>) from the type AccountTriggerHandler",
+        "exceptionStackTrace": null,
+        "compileProblem": ""
+      }
+    }
+  ],
+  "codecoverage": []
+}
