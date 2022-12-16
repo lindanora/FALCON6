@@ -376,6 +376,16 @@
     },
     {
       "cascadeDelete": true,
+      "childSObject": "Application_Log__Share",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
       "childSObject": "AssetShare",
       "deprecatedAndHidden": false,
       "field": "UserOrGroupId",
@@ -706,6 +716,16 @@
     },
     {
       "cascadeDelete": true,
+      "childSObject": "Post__Share",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
       "childSObject": "PromptActionShare",
       "deprecatedAndHidden": false,
       "field": "UserOrGroupId",
@@ -887,26 +907,6 @@
     {
       "cascadeDelete": true,
       "childSObject": "UserShare",
-      "deprecatedAndHidden": false,
-      "field": "UserOrGroupId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": true,
-      "childSObject": "WebCartShare",
-      "deprecatedAndHidden": false,
-      "field": "UserOrGroupId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": true,
-      "childSObject": "WebStoreShare",
       "deprecatedAndHidden": false,
       "field": "UserOrGroupId",
       "junctionIdListNames": [],

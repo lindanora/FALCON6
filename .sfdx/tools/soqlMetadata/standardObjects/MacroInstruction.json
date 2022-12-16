@@ -318,6 +318,20 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Active Application Log Tab",
+          "validFor": null,
+          "value": "Tab.Application_Log__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Appointment Invitation Tab",
+          "validFor": null,
+          "value": "Tab.AppointmentInvitation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Active Appointment Topic Time Slot Tab",
           "validFor": null,
           "value": "Tab.AppointmentTopicTimeSlot"
@@ -500,6 +514,20 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Active Credit Memo Invoice Application Tab",
+          "validFor": null,
+          "value": "Tab.CreditMemoInvApplication"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Credit Memo Line Tab",
+          "validFor": null,
+          "value": "Tab.CreditMemoLine"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Active Credit Memo Tab",
           "validFor": null,
           "value": "Tab.CreditMemo"
@@ -542,6 +570,20 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Active Finance Balance Snapshot Tab",
+          "validFor": null,
+          "value": "Tab.FinanceBalanceSnapshot"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Finance Transaction Tab",
+          "validFor": null,
+          "value": "Tab.FinanceTransaction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Active Group Tab",
           "validFor": null,
           "value": "Tab.CollaborationGroup"
@@ -573,6 +615,13 @@
           "label": "Active Individual Tab",
           "validFor": null,
           "value": "Tab.Individual"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Invoice Line Tab",
+          "validFor": null,
+          "value": "Tab.InvoiceLine"
         },
         {
           "active": true,
@@ -706,6 +755,13 @@
           "label": "Active Payment Tab",
           "validFor": null,
           "value": "Tab.Payment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Post Tab",
+          "validFor": null,
+          "value": "Tab.Post__c"
         },
         {
           "active": true,
@@ -1265,14 +1321,14 @@
           "defaultValue": false,
           "label": "Description",
           "validFor": null,
-          "value": "Field.ChangeRequest.Description.end"
+          "value": "Field.Incident.Description.end"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Description",
           "validFor": null,
-          "value": "Field.Incident.Description.end"
+          "value": "Field.ChangeRequest.Description.end"
         },
         {
           "active": true,

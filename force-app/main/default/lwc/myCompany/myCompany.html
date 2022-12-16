@@ -1,0 +1,12 @@
+<template>
+   <lightning-card title="COMPANY DETAILS">
+      <div class="slds-var-m-around_medium">
+
+         <lightning-input type="text" label="Enter your organization name" onkeyup={handleChange}
+            value={details.company}>
+         </lightning-input>
+
+         <div class="slds-var-m-top_small"> This is {details.company} </div>
+      </div>
+   </lightning-card>
+</template>

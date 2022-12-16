@@ -270,3 +270,11 @@ declare module "@salesforce/schema/Contact.Languages__c" {
   const Languages__c:string;
   export default Languages__c;
 }
+declare module "@salesforce/schema/Contact.VIP__c" {
+  const VIP__c:boolean;
+  export default VIP__c;
+}
+declare module "@salesforce/schema/Contact.Customer_Priority__c" {
+  const Customer_Priority__c:string;
+  export default Customer_Priority__c;
+}

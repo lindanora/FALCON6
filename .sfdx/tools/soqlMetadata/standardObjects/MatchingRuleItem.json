@@ -183,6 +183,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Account_Status"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "AccountNumber"
         },
         {
@@ -351,6 +358,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Customer_Priority"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "CustomerPriority"
         },
         {
@@ -443,6 +457,13 @@
           "label": null,
           "validFor": null,
           "value": "HomePhone"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ID"
         },
         {
           "active": true,
@@ -561,6 +582,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Log_Type"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "MailingAddress"
         },
         {
@@ -660,6 +688,13 @@
           "label": null,
           "validFor": null,
           "value": "Name"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Number_of_Contacts"
         },
         {
           "active": true,
@@ -988,6 +1023,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Tags"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Target_Name"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Target_Type"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "TextName"
         },
         {
@@ -996,6 +1052,13 @@
           "label": null,
           "validFor": null,
           "value": "TickerSymbol"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Title"
         },
         {
           "active": true,
@@ -1031,6 +1094,13 @@
           "label": null,
           "validFor": null,
           "value": "UpsellOpportunity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "UserID"
         },
         {
           "active": true,

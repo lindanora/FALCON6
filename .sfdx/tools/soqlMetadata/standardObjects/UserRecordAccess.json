@@ -243,6 +243,16 @@
     },
     {
       "cascadeDelete": false,
+      "childSObject": "Application_Log__c",
+      "deprecatedAndHidden": false,
+      "field": "UserRecordAccessId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
       "childSObject": "Asset",
       "deprecatedAndHidden": false,
       "field": "UserRecordAccessId",
@@ -334,36 +344,6 @@
     {
       "cascadeDelete": false,
       "childSObject": "Campaign",
-      "deprecatedAndHidden": false,
-      "field": "UserRecordAccessId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "CartDeliveryGroup",
-      "deprecatedAndHidden": false,
-      "field": "UserRecordAccessId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "CartItem",
-      "deprecatedAndHidden": false,
-      "field": "UserRecordAccessId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "CartRelatedItem",
       "deprecatedAndHidden": false,
       "field": "UserRecordAccessId",
       "junctionIdListNames": [],
@@ -973,6 +953,16 @@
     },
     {
       "cascadeDelete": false,
+      "childSObject": "Post__c",
+      "deprecatedAndHidden": false,
+      "field": "UserRecordAccessId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
       "childSObject": "Pricebook2",
       "deprecatedAndHidden": false,
       "field": "UserRecordAccessId",
@@ -1364,16 +1354,6 @@
     {
       "cascadeDelete": false,
       "childSObject": "WaveCompatibilityCheckItem",
-      "deprecatedAndHidden": false,
-      "field": "UserRecordAccessId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "WebCart",
       "deprecatedAndHidden": false,
       "field": "UserRecordAccessId",
       "junctionIdListNames": [],

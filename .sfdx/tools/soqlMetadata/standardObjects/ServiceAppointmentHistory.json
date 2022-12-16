@@ -160,6 +160,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Appointment Invitation",
+          "validFor": null,
+          "value": "AppointmentInvitation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Appointment Type",
           "validFor": null,
           "value": "AppointmentType"

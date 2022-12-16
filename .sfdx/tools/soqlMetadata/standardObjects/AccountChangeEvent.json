@@ -1798,6 +1798,79 @@
       "relationshipName": null,
       "sortable": false,
       "type": "date"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "VIP",
+      "name": "VIP__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Number of Contacts",
+      "name": "Number_of_Contacts__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "double"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Account Status",
+      "name": "Account_Status__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active",
+          "validFor": null,
+          "value": "Active"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Inactive",
+          "validFor": null,
+          "value": "Inactive"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hold",
+          "validFor": null,
+          "value": "Hold"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "picklist"
     }
   ],
   "label": "Account Change Event",

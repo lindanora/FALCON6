@@ -335,6 +335,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "AmazonDynamoDb"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "contentHubItem"
         },
         {
@@ -406,6 +413,13 @@
           "label": null,
           "validFor": null,
           "value": "Wrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Zero"
         }
       ],
       "referenceTo": [],

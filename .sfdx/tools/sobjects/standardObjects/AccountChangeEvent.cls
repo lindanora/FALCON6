@@ -77,6 +77,9 @@ global class AccountChangeEvent {
     global String UpsellOpportunity__c;
     global String SLASerialNumber__c;
     global Date SLAExpirationDate__c;
+    global Boolean VIP__c;
+    global Double Number_of_Contacts__c;
+    global String Account_Status__c;
 
     global AccountChangeEvent () 
     {

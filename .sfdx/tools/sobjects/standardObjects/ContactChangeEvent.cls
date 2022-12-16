@@ -68,6 +68,8 @@ global class ContactChangeEvent {
     global Id IndividualId;
     global String Level__c;
     global String Languages__c;
+    global Boolean VIP__c;
+    global String Customer_Priority__c;
 
     global ContactChangeEvent () 
     {

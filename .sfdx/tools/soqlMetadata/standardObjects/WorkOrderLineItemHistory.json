@@ -8,7 +8,7 @@
       "filterable": true,
       "groupable": true,
       "inlineHelpText": null,
-      "label": "Line Item History ID",
+      "label": "Work Order Line Item History ID",
       "name": "Id",
       "nillable": false,
       "picklistValues": [],
@@ -42,7 +42,7 @@
       "filterable": true,
       "groupable": true,
       "inlineHelpText": null,
-      "label": "Line Item ID",
+      "label": "Work Order Line Item ID",
       "name": "WorkOrderLineItemId",
       "nillable": false,
       "picklistValues": [],
@@ -422,7 +422,7 @@
       "type": "anyType"
     }
   ],
-  "label": "Line Item History",
+  "label": "Work Order Line Item History",
   "childRelationships": [],
   "custom": false,
   "name": "WorkOrderLineItemHistory",

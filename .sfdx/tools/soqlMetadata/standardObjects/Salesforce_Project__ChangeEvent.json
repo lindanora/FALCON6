@@ -64,7 +64,6 @@
       "nillable": true,
       "picklistValues": [],
       "referenceTo": [
-        "Group",
         "User"
       ],
       "relationshipName": null,

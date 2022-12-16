@@ -242,3 +242,11 @@ declare module "@salesforce/schema/ContactChangeEvent.Languages__c" {
   const Languages__c:string;
   export default Languages__c;
 }
+declare module "@salesforce/schema/ContactChangeEvent.VIP__c" {
+  const VIP__c:boolean;
+  export default VIP__c;
+}
+declare module "@salesforce/schema/ContactChangeEvent.Customer_Priority__c" {
+  const Customer_Priority__c:string;
+  export default Customer_Priority__c;
+}

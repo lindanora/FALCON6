@@ -8,7 +8,7 @@
       "filterable": true,
       "groupable": true,
       "inlineHelpText": null,
-      "label": "Line Item ID",
+      "label": "Work Order Line Item ID",
       "name": "Id",
       "nillable": false,
       "picklistValues": [],

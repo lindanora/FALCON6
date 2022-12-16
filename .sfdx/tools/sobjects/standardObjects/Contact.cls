@@ -75,6 +75,8 @@ global class Contact {
     global Id IndividualId;
     global String Level__c;
     global String Languages__c;
+    global Boolean VIP__c;
+    global String Customer_Priority__c;
     global List<AcceptedEventRelation> AcceptedEventRelations;
     global List<AccountContactRole> AccountContactRoles;
     global List<ActivityHistory> ActivityHistories;

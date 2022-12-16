@@ -80,6 +80,9 @@ global class Account {
     global String UpsellOpportunity__c;
     global String SLASerialNumber__c;
     global Date SLAExpirationDate__c;
+    global Boolean VIP__c;
+    global Double Number_of_Contacts__c;
+    global String Account_Status__c;
     global List<Account> ChildAccounts;
     global List<AccountCleanInfo> AccountCleanInfos;
     global List<AccountContactRole> AccountContactRoles;
@@ -130,7 +133,6 @@ global class Account {
     global List<Task> Tasks;
     global List<TopicAssignment> TopicAssignments;
     global List<User> Users;
-    global List<WebCart> Carts;
     global List<WorkOrder> WorkOrders;
     global List<AccountChangeEvent> Parent;
     global List<AccountContactRoleChangeEvent> Account;

@@ -85,6 +85,7 @@
       "picklistValues": [],
       "referenceTo": [
         "Account",
+        "Application_Log__c",
         "Asset",
         "AssetRelationship",
         "AssignedResource",
@@ -93,12 +94,15 @@
         "ContactRequest",
         "Contract",
         "ContractLineItem",
+        "Country_Code__c",
+        "DefaultTicketInfo__c",
         "Entitlement",
         "Image",
         "ListEmail",
         "Location",
         "Opportunity",
         "Order",
+        "Post__c",
         "Product2",
         "ResourceAbsence",
         "ReturnOrder",
@@ -1059,6 +1063,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "(GMT+01:00) Western European Summer Time (Africa/Casablanca)",
+          "validFor": null,
+          "value": "Africa/Casablanca"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "(GMT+01:00) Irish Standard Time (Europe/Dublin)",
           "validFor": null,
           "value": "Europe/Dublin"
@@ -1076,13 +1087,6 @@
           "label": "(GMT+01:00) British Summer Time (Europe/London)",
           "validFor": null,
           "value": "Europe/London"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+00:00) Western European Standard Time (Africa/Casablanca)",
-          "validFor": null,
-          "value": "Africa/Casablanca"
         },
         {
           "active": true,

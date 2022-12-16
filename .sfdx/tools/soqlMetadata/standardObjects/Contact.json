@@ -1357,6 +1357,62 @@
       "relationshipName": null,
       "sortable": true,
       "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "VIP",
+      "name": "VIP__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Customer Priority",
+      "name": "Customer_Priority__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Low Profile",
+          "validFor": null,
+          "value": "Low Profile"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Medium Profile",
+          "validFor": null,
+          "value": "Medium Profile"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "High Profile",
+          "validFor": null,
+          "value": "High Profile"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
     }
   ],
   "label": "Contact",

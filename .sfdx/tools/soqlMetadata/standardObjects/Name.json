@@ -120,6 +120,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Application_Log__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Asset"
         },
         {
@@ -191,27 +198,6 @@
           "label": null,
           "validFor": null,
           "value": "Campaign"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartDeliveryGroup"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartRelatedItem"
         },
         {
           "active": true,
@@ -715,6 +701,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Post__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Pricebook2"
         },
         {
@@ -1024,20 +1017,6 @@
           "label": null,
           "validFor": null,
           "value": "WaveCompatibilityCheckItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WebCart"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WebStore"
         },
         {
           "active": true,

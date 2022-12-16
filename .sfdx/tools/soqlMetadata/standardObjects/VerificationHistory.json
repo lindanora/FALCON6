@@ -132,6 +132,13 @@
           "label": "Built-In Authenticator",
           "validFor": null,
           "value": "BuiltInAuthenticator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Security Key",
+          "validFor": null,
+          "value": "WebAuthnRoamingAuthenticator"
         }
       ],
       "referenceTo": [],
@@ -281,6 +288,13 @@
           "label": "Connect a built-in authenticator",
           "validFor": null,
           "value": "ConnectWebAuth"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Connect a Security Key (U2F or WebAuthn)",
+          "validFor": null,
+          "value": "ConnectWebAuthRoaming"
         }
       ],
       "referenceTo": [],

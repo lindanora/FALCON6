@@ -48,6 +48,7 @@
       "picklistValues": [],
       "referenceTo": [
         "Account",
+        "Application_Log__c",
         "Asset",
         "Contact",
         "Contract",
@@ -58,6 +59,7 @@
         "Location",
         "Opportunity",
         "Order",
+        "Post__c",
         "Product2",
         "Salesforce_Project__c",
         "Salesforce_Ticket__c",

@@ -290,3 +290,15 @@ declare module "@salesforce/schema/Account.SLAExpirationDate__c" {
   const SLAExpirationDate__c:any;
   export default SLAExpirationDate__c;
 }
+declare module "@salesforce/schema/Account.VIP__c" {
+  const VIP__c:boolean;
+  export default VIP__c;
+}
+declare module "@salesforce/schema/Account.Number_of_Contacts__c" {
+  const Number_of_Contacts__c:number;
+  export default Number_of_Contacts__c;
+}
+declare module "@salesforce/schema/Account.Account_Status__c" {
+  const Account_Status__c:string;
+  export default Account_Status__c;
+}

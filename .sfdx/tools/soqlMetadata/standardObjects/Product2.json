@@ -416,16 +416,6 @@
       "restrictedDelete": false
     },
     {
-      "cascadeDelete": false,
-      "childSObject": "CartItem",
-      "deprecatedAndHidden": false,
-      "field": "Product2Id",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
       "cascadeDelete": true,
       "childSObject": "CombinedAttachment",
       "deprecatedAndHidden": false,

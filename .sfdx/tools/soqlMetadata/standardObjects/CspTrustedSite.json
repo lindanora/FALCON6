@@ -391,7 +391,7 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "LEX",
+          "label": "Lightning Experience Pages",
           "validFor": null,
           "value": "LEX"
         },
@@ -408,6 +408,13 @@
           "label": "Field Service Mobile Extension",
           "validFor": null,
           "value": "FieldServiceMobileExtension"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Visualforce Pages",
+          "validFor": null,
+          "value": "VisualForce"
         }
       ],
       "referenceTo": [],

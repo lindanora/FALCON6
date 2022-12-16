@@ -6,9 +6,12 @@
 // To edit your sObjects and their fields, edit the corresponding
 //     .object-meta.xml and .field-meta.xml files.
 
-global class CartRelatedItem {
+global class Post__ChangeEvent {
     global Id Id;
-    global Boolean IsDeleted;
+    global String ReplayId;
+    global Object ChangeEventHeader;
+    global User Owner;
+    global Id OwnerId;
     global String Name;
     global Datetime CreatedDate;
     global User CreatedBy;
@@ -16,17 +19,13 @@ global class CartRelatedItem {
     global Datetime LastModifiedDate;
     global User LastModifiedBy;
     global Id LastModifiedById;
-    global Datetime SystemModstamp;
-    global CartItem ParentCartItem;
-    global Id ParentCartItemId;
-    global CartItem ChildCartItem;
-    global Id ChildCartItemId;
-    global String RelationshipType;
-    global List<ProcessInstance> ProcessInstances;
-    global List<ProcessInstanceHistory> ProcessSteps;
-    global List<FlowRecordRelation> RelatedRecord;
+    global Double ID__c;
+    global Double UserID__c;
+    global String Title__c;
+    global String Body__c;
+    global String Tags__c;
 
-    global CartRelatedItem () 
+    global Post__ChangeEvent () 
     {
     }
 }

@@ -10,7 +10,7 @@ global class Salesforce_Project__ChangeEvent {
     global Id Id;
     global String ReplayId;
     global Object ChangeEventHeader;
-    global SObject Owner;
+    global User Owner;
     global Id OwnerId;
     global String Name;
     global Datetime CreatedDate;

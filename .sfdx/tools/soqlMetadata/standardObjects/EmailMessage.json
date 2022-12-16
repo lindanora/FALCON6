@@ -551,6 +551,7 @@
       "picklistValues": [],
       "referenceTo": [
         "Account",
+        "Application_Log__c",
         "Asset",
         "AssetRelationship",
         "AssignedResource",
@@ -799,9 +800,9 @@
       "deprecatedAndHidden": false,
       "field": "EmailMessageId",
       "junctionIdListNames": [
-        "BccIds",
+        "ToIds",
         "CcIds",
-        "ToIds"
+        "BccIds"
       ],
       "junctionReferenceTo": [
         "Contact",

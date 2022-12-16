@@ -55,7 +55,6 @@ global class FieldDefinition {
     global Boolean IsCompound;
     global Boolean IsSearchPrefilterable;
     global Boolean IsPolymorphicForeignKey;
-    global Boolean IsAiPredictionField;
     global SObject BusinessOwner;
     global Id BusinessOwnerId;
     global String BusinessStatus;

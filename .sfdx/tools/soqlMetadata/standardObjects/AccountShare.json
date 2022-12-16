@@ -356,6 +356,27 @@
           "label": "Record Collection",
           "validFor": null,
           "value": "SharingRecordCollection"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Learning Assignment Share",
+          "validFor": null,
+          "value": "LearningAssignment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Learning Assignment Implicit Share",
+          "validFor": null,
+          "value": "LearningAssignmentImplicit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Learning Item Assignment Share",
+          "validFor": null,
+          "value": "LearningItemAssignment"
         }
       ],
       "referenceTo": [],

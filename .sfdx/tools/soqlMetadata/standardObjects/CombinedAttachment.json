@@ -48,6 +48,7 @@
       "picklistValues": [],
       "referenceTo": [
         "Account",
+        "Application_Log__c",
         "Asset",
         "AssetRelationship",
         "AssignedResource",
@@ -61,8 +62,10 @@
         "Contract",
         "ContractLineItem",
         "ConversationEntry",
+        "Country_Code__c",
         "Dashboard",
         "DashboardComponent",
+        "DefaultTicketInfo__c",
         "EmailMessage",
         "EmailTemplate",
         "EnhancedLetterhead",
@@ -79,6 +82,7 @@
         "Order",
         "OrderItem",
         "Organization",
+        "Post__c",
         "Product2",
         "Report",
         "ResourceAbsence",
@@ -318,6 +322,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "AmazonDynamoDb"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "contentHubItem"
         },
         {
@@ -389,6 +400,13 @@
           "label": null,
           "validFor": null,
           "value": "Wrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Zero"
         }
       ],
       "referenceTo": [],

@@ -3125,13 +3125,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "builder_industries_arcgraph:arcGraph"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "builder_industries_arcgraph:auraControllerProvider"
         },
         {
@@ -3258,6 +3251,41 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "builder_industries_interaction_rule:advanceMatrix"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "builder_industries_interaction_rule:breDecisionTableAccessSetting"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "builder_industries_interaction_rule:decisionTables"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "builder_industries_interaction_rule:expressionSetTemplate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "builder_industries_interaction_rule:navigateToRuleBuilder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "builder_industries_interaction_rule:ruleBuilderTemplate"
         },
         {
@@ -3266,13 +3294,6 @@
           "label": null,
           "validFor": null,
           "value": "builder_industries_publicsector:businessPermitDependency"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "builder_industries_publicsector:businessProfileContainer"
         },
         {
           "active": true,
@@ -3412,13 +3433,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "builder_industries_publicsector:reportBusinessContainer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "builder_industries_publicsector:signupVolunteerProject"
         },
         {
@@ -3483,20 +3497,6 @@
           "label": null,
           "validFor": null,
           "value": "builder_industries_visit:visitsHome"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "builder_platform_blockchain:blockchainManager"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "builder_platform_blockchain:serverLibWrapper"
         },
         {
           "active": true,
@@ -3972,6 +3972,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "builder_service_chatbots:reportState"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "builder_service_chatbots:router"
         },
         {
@@ -3987,6 +3994,13 @@
           "label": null,
           "validFor": null,
           "value": "builder_service_chatbots:routerUrlManager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "builder_service_chatbots:segmentsState"
         },
         {
           "active": true,
@@ -4043,6 +4057,13 @@
           "label": null,
           "validFor": null,
           "value": "builder_service_chatbots:template"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "builder_service_chatbots:templateState"
         },
         {
           "active": true,
@@ -4687,6 +4708,13 @@
           "label": null,
           "validFor": null,
           "value": "chatbots:movableContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "chatbots:quickStartElements"
         },
         {
           "active": true,
@@ -6163,6 +6191,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "cmsAuthor:deleteManagedContentVariantAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "cmsAuthor:deployments"
         },
         {
@@ -6276,6 +6311,13 @@
           "label": null,
           "validFor": null,
           "value": "cmsAuthor:inputURLNode"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "cmsAuthor:languagePicker"
         },
         {
           "active": true,
@@ -6492,6 +6534,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "cmsAuthor:startOrchestrationWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "cmsAuthor:workspaceDeployments"
         },
         {
@@ -6514,6 +6563,13 @@
           "label": null,
           "validFor": null,
           "value": "commerce_catalog:categoryHierarchyTriggerCell"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "commerce_catalog:compositeListJunctionMassActionsManager"
         },
         {
           "active": true,
@@ -6562,13 +6618,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "commerce_catalog:productJunctionMassActionsManager"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "commerce_catalog:reorderCategories"
         },
         {
@@ -6598,6 +6647,13 @@
           "label": null,
           "validFor": null,
           "value": "commerce_console:actionToSetBooleanValue"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "commerce_console:buyerGroupCompositeList"
         },
         {
           "active": true,
@@ -6654,6 +6710,20 @@
           "label": null,
           "validFor": null,
           "value": "commerce_console:createVariantProductActionManager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "commerce_console:customerCompositeList"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "commerce_console:customerWorkspace"
         },
         {
           "active": true,
@@ -6843,6 +6913,13 @@
           "label": null,
           "validFor": null,
           "value": "communitySetup:addArticlesDialog"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "communitySetup:analyticsConfiguration"
         },
         {
           "active": true,
@@ -8032,6 +8109,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "communitySetup:dxpCmsContent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "communitySetup:dxpContentImagePicker"
         },
         {
@@ -8061,6 +8145,20 @@
           "label": null,
           "validFor": null,
           "value": "communitySetup:dxpEntityFieldSelector"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "communitySetup:dxpFlowArgumentEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "communitySetup:dxpFlowNameSelector"
         },
         {
           "active": true,
@@ -9082,6 +9180,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "communitySetup:siteRouteMetaData"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "communitySetup:stringBindableFieldEditor"
         },
         {
@@ -9439,35 +9544,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "contentbuilder:contentBuilderCanvasConfig"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "contentbuilder:contentBuilderTemplate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "contentbuilder:contentComponent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "contentbuilder:contentPage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "contentbuilder:contentRegion"
         },
         {
           "active": true,
@@ -12099,6 +12176,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "emailui:listEmailContent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "emailui:listEmailEngagementTab"
         },
         {
@@ -12128,6 +12212,13 @@
           "label": null,
           "validFor": null,
           "value": "emailui:listEmailRelatedListContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "emailui:listEmailReview"
         },
         {
           "active": true,
@@ -12422,6 +12513,13 @@
           "label": null,
           "validFor": null,
           "value": "emailui:sendListEmailAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "emailui:sendListEmailActionV2"
         },
         {
           "active": true,
@@ -13843,6 +13941,20 @@
           "label": null,
           "validFor": null,
           "value": "embeddedService:setupPanelEmbeddedMessagingCustomLabels"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "embeddedService:setupPanelEmbeddedMessagingCustomLabelsMobile"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "embeddedService:setupPanelEmbeddedMessagingCustomLabelsWeb"
         },
         {
           "active": true,
@@ -17657,6 +17769,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "force:dynamicRelatedListDesignSubstitute"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "force:eclairChart"
         },
         {
@@ -18624,13 +18743,6 @@
           "label": null,
           "validFor": null,
           "value": "force:listViewPicker"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "force:listViewPickerAutocomplete"
         },
         {
           "active": true,
@@ -20031,13 +20143,6 @@
           "label": null,
           "validFor": null,
           "value": "force:retryPanel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "force:rlscFullMetadataDesignSubstitute"
         },
         {
           "active": true,
@@ -23768,6 +23873,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "forceCommunity:arcGraph"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "forceCommunity:arcGraphHighlights"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "forceCommunity:arcGraphRecordDetails"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "forceCommunity:articleThumbVote"
         },
         {
@@ -23790,6 +23916,20 @@
           "label": null,
           "validFor": null,
           "value": "forceCommunity:askCommunitySuggestionDesignInfo"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "forceCommunity:autoRefresh"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "forceCommunity:autoRefreshDesignSubstitute"
         },
         {
           "active": true,
@@ -24336,6 +24476,13 @@
           "label": null,
           "validFor": null,
           "value": "forceCommunity:createRecordForm"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "forceCommunity:createRecordFormDesignInfo"
         },
         {
           "active": true,
@@ -25078,6 +25225,13 @@
           "label": null,
           "validFor": null,
           "value": "forceCommunity:multiLevelNavigation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "forceCommunity:multiLevelNavigationWrapper"
         },
         {
           "active": true,
@@ -28465,6 +28619,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "forceSearch:filterInputAutocomplete"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "forceSearch:filterInputPicklist"
         },
         {
@@ -29263,6 +29424,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "forceSearch:setupSearchConfiguration"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "forceSearch:setupSearchLayouts"
         },
         {
@@ -29445,125 +29613,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "frameworkEditor:arrangementEditor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:baseEditorCanvasConfig"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:baseInvalidComponent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:canvas"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:canvasContainer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:canvasElement"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:canvasNode"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:canvasPanel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:componentPlaceholder"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:errorComponent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:modelRemoteData"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:noUserAccessPlaceholder"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:palettePanel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:propertyPanel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:surfaceTemplate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:unsupportedFormFactorComponent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:warningComponent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "googleConnector:emailTransportServiceSetting"
         },
         {
@@ -29663,6 +29712,20 @@
           "label": null,
           "validFor": null,
           "value": "healthcloud:cancelHCAppointment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "healthcloud:careMgmtSlackChannelFlowLauncher"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "healthcloud:careMgmtSlackSetupPage"
         },
         {
           "active": true,
@@ -29872,6 +29935,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "healthcloud:medDevicesExpiringProductSerialNumbers"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "healthcloud:medDevicesMobileExpiringProductDetails"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "healthcloud:medDevicesVisitMap"
         },
         {
@@ -30026,6 +30103,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "healthcloud:myAppointmentsCommunity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "healthcloud:networkParticipation"
         },
         {
@@ -30041,6 +30125,13 @@
           "label": null,
           "validFor": null,
           "value": "healthcloud:patientIndexContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "healthcloud:patientIndexSetup"
         },
         {
           "active": true,
@@ -30076,6 +30167,13 @@
           "label": null,
           "validFor": null,
           "value": "healthcloud:pnmConfirmationPanelHeader"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "healthcloud:productExpirationRecords"
         },
         {
           "active": true,
@@ -30229,7 +30327,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "healthcloud:tasksAndInventoryStatus"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "healthcloud:transferRequests"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "healthcloud:unifiedHealthScoreContainer"
         },
         {
           "active": true,
@@ -30754,6 +30866,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "industries_automotive:automotive"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "industries_cds_common:manageParticipants"
         },
         {
@@ -30831,6 +30950,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "industries_cib:slackCibApp"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "industries_common:adminSetupAssistantContainer"
         },
         {
@@ -30838,7 +30964,14 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "industries_common:appointmentListViewContainer"
+          "value": "industries_common:chimeVideoCommunity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_common:chimeVideoUtility"
         },
         {
           "active": true,
@@ -30943,6 +31076,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "industries_common:myAppointments"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_common:myAppointmentsUtility"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "industries_common:newMemberModal"
         },
         {
@@ -31006,6 +31153,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "industries_common:recordTypeSelectionModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "industries_common:relationshipCardCommunity"
         },
         {
@@ -31034,7 +31188,14 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "industries_common:videoVisitContainer"
+          "value": "industries_common:timeline"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_common:timelineCommunity"
         },
         {
           "active": true,
@@ -31077,6 +31238,13 @@
           "label": null,
           "validFor": null,
           "value": "industries_loyalty_engine:ruleEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_loyalty_engine:tJProcessRulesCard"
         },
         {
           "active": true,
@@ -31181,6 +31349,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "industries_mfg_adv_forecast:advAccountForecastSetFieldPickerEdit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_mfg_adv_forecast:advAccountForecastSetFieldPickerView"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "industries_mfg_adv_forecast:advancedForecast"
         },
         {
@@ -31273,6 +31455,34 @@
           "label": null,
           "validFor": null,
           "value": "industries_mfg_forecast:recalculateForecastModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_mfg_program:mfgProgramTemplateFieldPickerEdit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_mfg_program:mfgProgramTemplateFieldPickerView"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_mfg_program:periodFieldPickerEdit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_mfg_program:periodFieldPickerView"
         },
         {
           "active": true,
@@ -31406,6 +31616,13 @@
           "label": null,
           "validFor": null,
           "value": "industries_mfg_rebates:referencedRebateType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_mfg_service:mfgService"
         },
         {
           "active": true,
@@ -31784,6 +32001,13 @@
           "label": null,
           "validFor": null,
           "value": "isotope:tester"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "jsonxform:dominoApi"
         },
         {
           "active": true,
@@ -34975,6 +35199,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "lightningdocs:alert"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "lightningdocs:avatar"
         },
         {
@@ -35025,6 +35256,13 @@
           "label": null,
           "validFor": null,
           "value": "lightningdocs:combobox"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "lightningdocs:confirm"
         },
         {
           "active": true,
@@ -35255,6 +35493,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "lightningdocs:prompt"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "lightningdocs:radioGroup"
         },
         {
@@ -35444,6 +35689,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "lst:drlRelatedListEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "lst:drlSortPicklistEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "lst:listViewAutoCompleteWrapper"
         },
         {
@@ -35514,7 +35773,28 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "lst:relatedListSingleContainerFilterItemEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "lst:relatedListSingleContainerFilterListEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "lst:relatedListSingleContainerMobile"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "lst:upgradeRelatedListSingleInfo"
         },
         {
           "active": true,
@@ -36711,6 +36991,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "objectManager:flowTriggerDetailList"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "objectManager:globalSearchBox"
         },
         {
@@ -36991,6 +37278,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "objectManager:restrictionRulesDetail_ExternalObject"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "objectManager:restrictionRulesExpressionRHS"
         },
         {
@@ -37006,6 +37300,13 @@
           "label": null,
           "validFor": null,
           "value": "objectManager:restrictionRulesList"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "objectManager:restrictionRulesList_ExternalObject"
         },
         {
           "active": true,
@@ -37048,6 +37349,13 @@
           "label": null,
           "validFor": null,
           "value": "objectManager:setupComponent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "objectManager:slackRecordLayoutDetailList"
         },
         {
           "active": true,
@@ -38230,13 +38538,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "one:appNavMenu"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "one:appNavMenuPanel"
         },
         {
@@ -38384,13 +38685,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "one:consoleLayoutContainer2"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "one:consoleLi"
         },
         {
@@ -38399,13 +38693,6 @@
           "label": null,
           "validFor": null,
           "value": "one:consoleMaxTabCacheSetup"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "one:consoleNav"
         },
         {
           "active": true,
@@ -38447,13 +38734,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "one:consoleTabContainer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "one:consoleTabCustomizationPanel"
         },
         {
@@ -38461,21 +38741,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "one:consoleTabItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "one:consoleTabScrollManager"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "one:consoleTabset"
         },
         {
           "active": true,
@@ -38742,13 +39008,6 @@
           "label": null,
           "validFor": null,
           "value": "one:globalCreateItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "one:globalNav"
         },
         {
           "active": true,
@@ -39126,7 +39385,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "one:onboardingManager"
+          "value": "one:onboardingManagerV1"
         },
         {
           "active": true,
@@ -39658,28 +39917,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "one:workspace"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "one:workspace2"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "one:workspaceAPILoader"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "one:workspaceCollection"
         },
         {
           "active": true,
@@ -40183,6 +40421,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "opencti:transferModalFooter"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "opencti:userConsentModal"
         },
         {
@@ -40394,13 +40639,6 @@
           "label": null,
           "validFor": null,
           "value": "process_home:processHomeCreateMenu"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "process_migration:banner"
         },
         {
           "active": true,
@@ -43172,6 +43410,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_analytics_dataplatform:dataWorkbench"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_analytics_dataplatform:datasetDetails"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_analytics_dataplatform:mulesoftdatapath"
         },
         {
@@ -43236,6 +43488,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_appointmentbooking:flowConfirm"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_appointmentbooking:flowInvitee"
         },
         {
           "active": true,
@@ -43418,6 +43677,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_appointmentbooking:setupAssistantStepsSection"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_appointmentbooking:ssTroubleshootingUI"
         },
         {
           "active": true,
@@ -44096,6 +44362,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_cdp:dataActionTargetEventMetrics"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_cdp:dataActionTargetKeyPanel"
         },
         {
@@ -44187,7 +44460,42 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_cdp:dataShareObjectsPanel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_cdp:dataShareTargetsPanel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_cdp:dataSourceConfig"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_cdp:dataSpaceAddDataAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_cdp:dataSpaceAddDataWizard"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_cdp:dataSpaceObjects"
         },
         {
           "active": true,
@@ -44474,6 +44782,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_cdp:exploreInAnalyticsAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_cdp:identityResolutionDeleteAction"
         },
         {
@@ -44579,6 +44894,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_cdp:marketSegmentActivationCopyAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_cdp:marketSegmentActivationDeleteAction"
         },
         {
@@ -44642,6 +44964,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_cdp:marketSegmentCreateEditWizard"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_cdp:marketSegmentDeleteAction"
         },
         {
@@ -44685,6 +45014,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_cdp:marketSegmentEditRulesAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_cdp:marketSegmentNewAction"
         },
         {
           "active": true,
@@ -45153,6 +45489,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_commerce_os:importPendingOrderSummary"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_commerce_pricing:associatePriceAdjustmentSchedule"
         },
         {
@@ -45370,6 +45713,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_commerce_store:storeDetailHighlightsPanel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_commerce_store:storeIntConfirm"
         },
         {
@@ -45419,6 +45769,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_commerce_store:storeIntegrationsHeader"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_commerce_store:storeIntegrationsHelpReferences"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_commerce_store:storeIntegrationsSetupFlow"
         },
         {
@@ -45448,6 +45812,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_commerce_store:storeSetupAssistant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_commerce_store:storeTax"
         },
         {
           "active": true,
@@ -45650,6 +46021,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_compliantsharing:participantRoleLookupWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_conversation:callCoachingWelcomeMat"
         },
         {
@@ -45665,6 +46043,20 @@
           "label": null,
           "validFor": null,
           "value": "runtime_conversation:callCoachingWelcomeMatTile"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_conversation:followUpContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_conversation:followUpContainerDesignSubstitute"
         },
         {
           "active": true,
@@ -45735,6 +46127,160 @@
           "label": null,
           "validFor": null,
           "value": "runtime_einstein_discovery:einsteinDiscoveryPanel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:deleteProgramProgress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureBuilder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureBuilderCreateFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureBuilderDefinitionStepWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureBuilderFilterBuilder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureBuilderFilterRow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureBuilderFiltersStep"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureBuilderPreviewWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureStatusUpdate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:navigateToEnablementBuilder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:programAssignment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:programStatusUpdate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:salesWinCelebration"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:salesWinManager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:salesWinModalManager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:salesWinQuestionnaireStep"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:salesWinQuip"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:salesWinSlidesContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:salesWinVideo"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:salesWinVideoUploadPanel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:serverDataLibInit"
         },
         {
           "active": true,
@@ -46056,6 +46602,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_essential_checkout:redirectToYourAccount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_essential_checkout:setupManageLicensesFlow"
         },
         {
@@ -46239,6 +46792,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_hello_studio:pageWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_hello_studio:pathAssistantWrapper"
         },
         {
           "active": true,
@@ -46588,6 +47148,34 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_industries_actionplan:reorderItemsModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_actionplan:reorderTemplateItemsModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_actionplan:scheduleRecurrence"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_actionplan:scheduleRecurrenceModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_industries_actionplan:signatureTaskManager"
         },
         {
@@ -46665,6 +47253,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_industries_arcgraph:arcGraph"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_industries_assessment:newQuestionAction"
         },
         {
@@ -46687,6 +47282,20 @@
           "label": null,
           "validFor": null,
           "value": "runtime_industries_churn_ED:table"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_clm:contractDocumentView"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_documentreader:extractedValuesFormatter"
         },
         {
           "active": true,
@@ -46764,6 +47373,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_industries_fsc:rvTabset"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_fsc:serviceExcellenceSettings"
         },
         {
           "active": true,
@@ -47058,6 +47674,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_industries_insurance:quickActionPanel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_interaction_decisionmatrix:openDecisionMatrix"
         },
         {
           "active": true,
@@ -47624,7 +48247,28 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_industries_loyalty:vdProduct"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_industries_publicsector:deleteMeFirst"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_publicsector:omniAssessmentRuntime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_publicsector:questionSelectionNavigation"
         },
         {
           "active": true,
@@ -47827,7 +48471,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_industries_sustainability:beiBuilder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_industries_sustainability:dataVisualization"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_sustainability:fillDataGaps"
         },
         {
           "active": true,
@@ -48114,6 +48772,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_learning_essentials_welcome:easyFeedbackSurveyWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_learning_essentials_welcome:easyTrialBannerWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_learning_essentials_welcome:onboardingAppTemplate"
         },
         {
@@ -48240,6 +48912,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_marketing_btobma:marketingAppExtActionActionParams"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_marketing_btobma:marketingAppExtActionActionSchema"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_marketing_btobma:marketingAppExtActionActionSelector"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_marketing_btobma:marketingAppExtActivityEndpointUrl"
         },
         {
@@ -48297,6 +48990,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_marketing_btobma:outputRichText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_marketing_btobma:outputUrl"
         },
         {
           "active": true,
@@ -48395,6 +49095,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_omnistudio:prefSelector"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_omnistudio:viewOmniscript"
         },
         {
           "active": true,
@@ -49612,6 +50319,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_revenue_admin_console:revCatalogList"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_revenue_admin_console:revConfigWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_revenue_admin_console:revPricingWorkspace"
         },
         {
@@ -49633,6 +50354,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_revenue_admin_console:subMgmtGettingStarted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_revenue_billingbatchinvoices:newInvoiceRunScheduler"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_revenue_billingbatchpayments:bbsFrequencyOptions"
         },
         {
@@ -49648,6 +50383,20 @@
           "label": null,
           "validFor": null,
           "value": "runtime_revenue_billingbatchpayments:newPaymentScheduler"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_revenue_insights:invoiceLatePaymentInsightsPopOver"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_revenue_insights:invoiceLatePaymentListViewScoreRenderer"
         },
         {
           "active": true,
@@ -50424,6 +51173,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_sales_activities:manageAssociations"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_sales_activities:manyWhoInputLookup"
         },
         {
@@ -50579,6 +51335,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_sales_activities:taskContentInner"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_sales_activities:taskDateOverride"
         },
         {
           "active": true,
@@ -51117,6 +51880,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_sales_campaign:marketingAssetContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_sales_campaign:massAddMember"
         },
         {
@@ -51348,6 +52118,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_sales_easy:dockingPanelChatClient"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_sales_easy:eacConfigSetupFinish"
         },
         {
@@ -51383,7 +52160,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_sales_easy:easyChatBubble"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_sales_easy:emptyContent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_sales_easy:externalConnectorSetupFinish"
         },
         {
           "active": true,
@@ -51398,6 +52189,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_sales_easy:objectHomeDesktop"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_sales_easy:termsOfService"
         },
         {
           "active": true,
@@ -51614,6 +52412,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_sales_emailtemplateui:starterTemplateLauncher"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_sales_emailtemplateui:templateDataProvider"
         },
         {
@@ -51678,69 +52483,6 @@
           "label": null,
           "validFor": null,
           "value": "runtime_sales_emailtemplateui:templateWarningBanner"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:lwcTester"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:salesWinCelebration"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:salesWinManager"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:salesWinModalManager"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:salesWinQuestionnaireStep"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:salesWinQuip"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:salesWinSlidesContainer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:salesWinVideo"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:salesWinVideoUploadPanel"
         },
         {
           "active": true,
@@ -53973,7 +54715,14 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "runtime_sales_todo_list:todoListContainer"
+          "value": "runtime_sales_todo_list:recordLookupWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_sales_todo_list:unifiedToDoListAuraWrapper"
         },
         {
           "active": true,
@@ -54631,7 +55380,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "runtime_service_fieldservice:attributes"
+          "value": "runtime_service_fieldservice:assetAttributeValue"
         },
         {
           "active": true,
@@ -54653,6 +55402,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_service_fieldservice:bundleMemberAddiFieldNameRenderer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_service_fieldservice:bundlerFieldNameRenderer"
         },
         {
           "active": true,
@@ -54709,6 +55465,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_service_fieldservice:criteriaFieldPicker"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_service_fieldservice:dataTypeField"
         },
         {
           "active": true,
@@ -54848,6 +55611,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_service_fieldservice:mpFreqMigrationImpactAnalysisTool"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_service_fieldservice:objectHierarchy"
         },
         {
@@ -54884,6 +55654,20 @@
           "label": null,
           "validFor": null,
           "value": "runtime_service_fieldservice:quantityMismatchWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_service_fieldservice:receiveTransfer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_service_fieldservice:receiveTransferEditStatus"
         },
         {
           "active": true,
@@ -55464,6 +56248,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_service_livemessage:messagingSessionPlatformType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_service_livemessage:messagingTemplate"
         },
         {
@@ -55604,6 +56395,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_service_omnichannel:omniHeadlessUtility"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_service_omnichannel:omniWidget"
         },
         {
@@ -55682,6 +56480,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_service_predictions:bulkConvertToQuickTextModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_service_predictions:bulkDeleteReplyText"
         },
         {
           "active": true,
@@ -55871,6 +56676,20 @@
           "label": null,
           "validFor": null,
           "value": "runtime_service_predictions:recommendationLookupOption"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_service_predictions:replyRecommendationLanguageList"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_service_predictions:replyRecommendationScopedNotification"
         },
         {
           "active": true,
@@ -56263,6 +57082,62 @@
           "label": null,
           "validFor": null,
           "value": "runtime_service_workforce_engagement_config:jpMappings"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_thp_builder:contentPropertyEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_thp_builder:enablementBuilderTemplate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_thp_builder:linkEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_thp_builder:measureEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_thp_builder:trailheadModuleEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_thp_builder:videoEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_thp_learning:programsDataProvider"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_video_platform:testLWCComponents"
         },
         {
           "active": true,
@@ -56857,6 +57732,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "salesforceIdentity:oauthOidcSettings"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "salesforceIdentity:searchInput"
         },
         {
@@ -57236,6 +58118,34 @@
           "label": null,
           "validFor": null,
           "value": "securityHub:orgManagement"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "securityHub:policyHealthCheckBaselineForm"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "securityHub:policyIpRangeForm"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "securityHub:policyPasswordForm"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "securityHub:policySessionSettingsForm"
         },
         {
           "active": true,
@@ -58985,6 +59895,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_cdp:dataSpacesHomePage"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_cdp:dataSpacesRecordPage"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_cdp:googleCloudStorageSetup"
         },
         {
@@ -59202,6 +60126,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_einstein_doccapture:einsteinDocumentReader"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_einstein_shared:assessorItem"
         },
         {
@@ -59217,6 +60148,20 @@
           "label": null,
           "validFor": null,
           "value": "setup_einstein_shared:builderAppTemplate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_einstein_shared:cloneDialog"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_einstein_shared:docReaderLWCServerCaller"
         },
         {
           "active": true,
@@ -59293,6 +60238,34 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_exploration_consent:explorationConsentSetup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_accounting_subledger:accountingFieldMappingsWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_accounting_subledger:accountingSetsWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_accounting_subledger:accountingSubledgerSettingsWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_industries_advancedforecast:advAccForecastSettings"
         },
         {
@@ -59314,6 +60287,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_industries_aiaccelerator:aiAcceleratorSetup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_automotive_foundation:automotiveFoundationSettings"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_churnprediction:churnPredictionSetup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_industries_clm:contractTypeConfigsList"
         },
         {
@@ -59328,6 +60322,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_industries_clm:createContractFromOpp"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_industries_clm:editContractTypeConfigs"
         },
         {
@@ -59336,6 +60337,20 @@
           "label": null,
           "validFor": null,
           "value": "setup_industries_clm:editContractTypes"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_clm:updateContractFromOpp"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_common:identityVerificationSetup"
         },
         {
           "active": true,
@@ -59531,6 +60546,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_industries_documentreader:IDRHome"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_documentreader:IFRHome"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_industries_documentreader:customDataTableWrapper"
         },
         {
@@ -59629,6 +60658,41 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_industries_mfg_service:mfgServiceSetup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_mfgprogram:mfgProgramDetailedSettings"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_mfgprogram:mfgProgramSettings"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_mfgprogram:mfgProgramTemplateEdit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_mfgprogram:openProgramTemplate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_industries_objectdetection:datasetTrainAction"
         },
         {
@@ -59665,6 +60729,48 @@
           "label": null,
           "validFor": null,
           "value": "setup_industries_objectdetection:objectDetectionHome"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_publicsector:businessRulesEngineSetupAssistant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_publicsector:carePlanBenefitSettings"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_publicsector:digitalExperienceSetupAssistant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_publicsector:foundationSetupAssistant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_publicsector:inspectionManagementSetupAssistant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_publicsector:licenseAndPermitSetupAssistant"
         },
         {
           "active": true,
@@ -59805,6 +60911,13 @@
           "label": null,
           "validFor": null,
           "value": "setup_industries_tpm:rcgProcessingServiceSettings"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_vertical_integration:systemIntegrationsLandingPage"
         },
         {
           "active": true,
@@ -60259,13 +61372,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "setup_mobile_appclone:iosCodeSignSection"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "setup_mobile_appclone:iosIconsSection"
         },
         {
@@ -60288,13 +61394,6 @@
           "label": null,
           "validFor": null,
           "value": "setup_mobile_appclone:iosMetadataReadOnly"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "setup_mobile_appclone:iosPushSection"
         },
         {
           "active": true,
@@ -60483,6 +61582,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_mobile_appclone:securitySDKSection"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_mobile_appclone:setupTile"
         },
         {
@@ -60539,7 +61645,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_mobile_security:mobileSecurityConnectedApp"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_mobile_security:mobileSecurityHome"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_motivation:motivationSetup"
         },
         {
           "active": true,
@@ -60791,7 +61911,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "setup_platform_connectcenter:dataModels"
+          "value": "setup_platform_connectcenter:dataModel"
         },
         {
           "active": true,
@@ -60918,6 +62038,13 @@
           "label": null,
           "validFor": null,
           "value": "setup_platform_externalconnection:privateConnectionTopologies"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_platform_externaldatasource:externalObjectQualifiers"
         },
         {
           "active": true,
@@ -61107,6 +62234,13 @@
           "label": null,
           "validFor": null,
           "value": "setup_platform_ltngbolt:lsfNewFlowCategory"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_platform_namedcredential:namedCredentialDetail"
         },
         {
           "active": true,
@@ -61387,6 +62521,13 @@
           "label": null,
           "validFor": null,
           "value": "setup_platform_sfdx:cannotExpireWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_platform_sfdx:devOpsCenterSetupPage"
         },
         {
           "active": true,
@@ -61702,6 +62843,13 @@
           "label": null,
           "validFor": null,
           "value": "setup_release_update:tooltip"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_revenue_insights:invoiceScoringSetup"
         },
         {
           "active": true,
@@ -63339,6 +64487,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_service:liveMessageEnhancedMessaging"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_service:liveMessageProceedOmni"
         },
         {
@@ -63738,6 +64893,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_service:simpleAuthInviteUserFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_service:simpleAuthInviteUserModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_service:slackApexCustomApps"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_service:slackGettingStarted"
         },
         {
@@ -63928,13 +65104,6 @@
           "label": null,
           "validFor": null,
           "value": "setup_service_fieldservice:assetSettings"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "setup_service_fieldservice:attributeDefinition"
         },
         {
           "active": true,
@@ -64284,6 +65453,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_service_livemessage:messagingSessionCloseConversationActionWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_service_livemessage:messagingTemplateChannelSection"
         },
         {
@@ -64600,6 +65776,13 @@
           "label": null,
           "validFor": null,
           "value": "setup_service_predictions:filterSelectionScreen"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_service_predictions:filterView"
         },
         {
           "active": true,
@@ -65005,6 +66188,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_service_usecaseexplorer:usecaseExplorerViewReport"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_service_voice:addContactCenterAction"
         },
         {
@@ -65048,6 +66238,13 @@
           "label": null,
           "validFor": null,
           "value": "setup_service_voice:amazonContactCenterRecordDetails"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_service_voice:assignToGroupModal"
         },
         {
           "active": true,
@@ -65111,6 +66308,20 @@
           "label": null,
           "validFor": null,
           "value": "setup_service_voice:contactCenterDetailsStep"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_service_voice:contactCenterGroupGrid"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_service_voice:contactCenterGroupModal"
         },
         {
           "active": true,
@@ -65223,6 +66434,13 @@
           "label": null,
           "validFor": null,
           "value": "setup_service_voice:importContactCenter"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_service_voice:queueSyncingPrefToggle"
         },
         {
           "active": true,
@@ -66496,6 +67714,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "sfa:personAccountEnablementWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "sfa:pipelineInspectionAction"
         },
         {
@@ -66692,6 +67917,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "sfdc_payments_console:placeholder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "siteforce:b2bBody"
         },
         {
@@ -66770,6 +68002,13 @@
           "label": null,
           "validFor": null,
           "value": "siteforce:cptThemeCss"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "siteforce:customerErrorHandler"
         },
         {
           "active": true,
@@ -67280,6 +68519,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "siteforce:systemErrorHandler"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "siteforce:themeLayoutStarter"
         },
         {
@@ -67414,6 +68660,34 @@
           "label": null,
           "validFor": null,
           "value": "siteforceBuilder:siteLinkDropdown"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "spcm_industries_publicsector:addServiceBenefitContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "spcm_industries_publicsector:addServiceGoalContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "spcm_industries_publicsector:launchModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "spcm_industries_publicsector:sptGuidedFlowWrapper"
         },
         {
           "active": true,
@@ -68792,6 +70066,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "survey:runtimeMatrix"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "survey:runtimeMultiChoice"
         },
         {
@@ -69185,6 +70466,13 @@
           "label": null,
           "validFor": null,
           "value": "survey:tester_builderLeftPanel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "survey:thankYouOptions"
         },
         {
           "active": true,
@@ -72355,6 +73643,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "voice:durationRendererTimestamp"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "voice:feedbackPanel"
         },
         {
@@ -72768,6 +74063,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "wave:analyticsSpinner"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "wave:annotationFeedControl"
         },
         {
@@ -72790,6 +74092,13 @@
           "label": null,
           "validFor": null,
           "value": "wave:annotationPublisherControl"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wave:appHistoryControlPanel"
         },
         {
           "active": true,
@@ -72845,13 +74154,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "wave:loadingSpinnerCard"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "wave:notificationCreateModal"
         },
         {
@@ -72867,13 +74169,6 @@
           "label": null,
           "validFor": null,
           "value": "wave:recipeConfigurationSettings"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "wave:recipeFiscalConfigurationSettings"
         },
         {
           "active": true,
@@ -73608,7 +74903,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "wfm:schedulingPolicies"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "wfm:setupGettingStarted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm:shiftSegmentTypes"
         },
         {
           "active": true,
@@ -73727,6 +75036,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "wfm_analytics:intradayCPChart"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_analytics:intradayGraphViewContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "wfm_analytics:updateCapacityUnit"
         },
         {
@@ -73756,6 +75079,20 @@
           "label": null,
           "validFor": null,
           "value": "wfm_analytics:workforceCapacityDashboard"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_intraday_management:intradayManagementTab"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_scheduling:addSegmentsWrapper"
         },
         {
           "active": true,
@@ -73854,6 +75191,48 @@
           "label": null,
           "validFor": null,
           "value": "wfm_scheduling:shiftMassActionsConfirmModalFooter"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_scheduling:shiftSegmentType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_scheduling:shiftSegmentTypeDeleteModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_scheduling:shiftSegmentTypeModalFooter"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_scheduling:shiftSegmentTypeModalFormBody"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_scheduling:shiftSegmentTypeModalHeader"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_scheduling:shiftSegmentTypeModalViewBody"
         },
         {
           "active": true,
@@ -76832,13 +78211,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "builder_industries_arcgraph:arcGraph"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "builder_industries_arcgraph:auraControllerProvider"
         },
         {
@@ -76965,6 +78337,41 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "builder_industries_interaction_rule:advanceMatrix"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "builder_industries_interaction_rule:breDecisionTableAccessSetting"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "builder_industries_interaction_rule:decisionTables"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "builder_industries_interaction_rule:expressionSetTemplate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "builder_industries_interaction_rule:navigateToRuleBuilder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "builder_industries_interaction_rule:ruleBuilderTemplate"
         },
         {
@@ -76973,13 +78380,6 @@
           "label": null,
           "validFor": null,
           "value": "builder_industries_publicsector:businessPermitDependency"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "builder_industries_publicsector:businessProfileContainer"
         },
         {
           "active": true,
@@ -77119,13 +78519,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "builder_industries_publicsector:reportBusinessContainer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "builder_industries_publicsector:signupVolunteerProject"
         },
         {
@@ -77190,20 +78583,6 @@
           "label": null,
           "validFor": null,
           "value": "builder_industries_visit:visitsHome"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "builder_platform_blockchain:blockchainManager"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "builder_platform_blockchain:serverLibWrapper"
         },
         {
           "active": true,
@@ -77679,6 +79058,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "builder_service_chatbots:reportState"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "builder_service_chatbots:router"
         },
         {
@@ -77694,6 +79080,13 @@
           "label": null,
           "validFor": null,
           "value": "builder_service_chatbots:routerUrlManager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "builder_service_chatbots:segmentsState"
         },
         {
           "active": true,
@@ -77750,6 +79143,13 @@
           "label": null,
           "validFor": null,
           "value": "builder_service_chatbots:template"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "builder_service_chatbots:templateState"
         },
         {
           "active": true,
@@ -78394,6 +79794,13 @@
           "label": null,
           "validFor": null,
           "value": "chatbots:movableContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "chatbots:quickStartElements"
         },
         {
           "active": true,
@@ -79870,6 +81277,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "cmsAuthor:deleteManagedContentVariantAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "cmsAuthor:deployments"
         },
         {
@@ -79983,6 +81397,13 @@
           "label": null,
           "validFor": null,
           "value": "cmsAuthor:inputURLNode"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "cmsAuthor:languagePicker"
         },
         {
           "active": true,
@@ -80199,6 +81620,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "cmsAuthor:startOrchestrationWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "cmsAuthor:workspaceDeployments"
         },
         {
@@ -80221,6 +81649,13 @@
           "label": null,
           "validFor": null,
           "value": "commerce_catalog:categoryHierarchyTriggerCell"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "commerce_catalog:compositeListJunctionMassActionsManager"
         },
         {
           "active": true,
@@ -80269,13 +81704,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "commerce_catalog:productJunctionMassActionsManager"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "commerce_catalog:reorderCategories"
         },
         {
@@ -80305,6 +81733,13 @@
           "label": null,
           "validFor": null,
           "value": "commerce_console:actionToSetBooleanValue"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "commerce_console:buyerGroupCompositeList"
         },
         {
           "active": true,
@@ -80361,6 +81796,20 @@
           "label": null,
           "validFor": null,
           "value": "commerce_console:createVariantProductActionManager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "commerce_console:customerCompositeList"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "commerce_console:customerWorkspace"
         },
         {
           "active": true,
@@ -80550,6 +81999,13 @@
           "label": null,
           "validFor": null,
           "value": "communitySetup:addArticlesDialog"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "communitySetup:analyticsConfiguration"
         },
         {
           "active": true,
@@ -81739,6 +83195,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "communitySetup:dxpCmsContent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "communitySetup:dxpContentImagePicker"
         },
         {
@@ -81768,6 +83231,20 @@
           "label": null,
           "validFor": null,
           "value": "communitySetup:dxpEntityFieldSelector"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "communitySetup:dxpFlowArgumentEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "communitySetup:dxpFlowNameSelector"
         },
         {
           "active": true,
@@ -82789,6 +84266,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "communitySetup:siteRouteMetaData"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "communitySetup:stringBindableFieldEditor"
         },
         {
@@ -83146,35 +84630,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "contentbuilder:contentBuilderCanvasConfig"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "contentbuilder:contentBuilderTemplate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "contentbuilder:contentComponent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "contentbuilder:contentPage"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "contentbuilder:contentRegion"
         },
         {
           "active": true,
@@ -85806,6 +87262,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "emailui:listEmailContent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "emailui:listEmailEngagementTab"
         },
         {
@@ -85835,6 +87298,13 @@
           "label": null,
           "validFor": null,
           "value": "emailui:listEmailRelatedListContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "emailui:listEmailReview"
         },
         {
           "active": true,
@@ -86129,6 +87599,13 @@
           "label": null,
           "validFor": null,
           "value": "emailui:sendListEmailAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "emailui:sendListEmailActionV2"
         },
         {
           "active": true,
@@ -87550,6 +89027,20 @@
           "label": null,
           "validFor": null,
           "value": "embeddedService:setupPanelEmbeddedMessagingCustomLabels"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "embeddedService:setupPanelEmbeddedMessagingCustomLabelsMobile"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "embeddedService:setupPanelEmbeddedMessagingCustomLabelsWeb"
         },
         {
           "active": true,
@@ -91364,6 +92855,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "force:dynamicRelatedListDesignSubstitute"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "force:eclairChart"
         },
         {
@@ -92331,13 +93829,6 @@
           "label": null,
           "validFor": null,
           "value": "force:listViewPicker"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "force:listViewPickerAutocomplete"
         },
         {
           "active": true,
@@ -93738,13 +95229,6 @@
           "label": null,
           "validFor": null,
           "value": "force:retryPanel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "force:rlscFullMetadataDesignSubstitute"
         },
         {
           "active": true,
@@ -97475,6 +98959,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "forceCommunity:arcGraph"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "forceCommunity:arcGraphHighlights"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "forceCommunity:arcGraphRecordDetails"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "forceCommunity:articleThumbVote"
         },
         {
@@ -97497,6 +99002,20 @@
           "label": null,
           "validFor": null,
           "value": "forceCommunity:askCommunitySuggestionDesignInfo"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "forceCommunity:autoRefresh"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "forceCommunity:autoRefreshDesignSubstitute"
         },
         {
           "active": true,
@@ -98043,6 +99562,13 @@
           "label": null,
           "validFor": null,
           "value": "forceCommunity:createRecordForm"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "forceCommunity:createRecordFormDesignInfo"
         },
         {
           "active": true,
@@ -98785,6 +100311,13 @@
           "label": null,
           "validFor": null,
           "value": "forceCommunity:multiLevelNavigation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "forceCommunity:multiLevelNavigationWrapper"
         },
         {
           "active": true,
@@ -102172,6 +103705,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "forceSearch:filterInputAutocomplete"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "forceSearch:filterInputPicklist"
         },
         {
@@ -102970,6 +104510,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "forceSearch:setupSearchConfiguration"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "forceSearch:setupSearchLayouts"
         },
         {
@@ -103152,125 +104699,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "frameworkEditor:arrangementEditor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:baseEditorCanvasConfig"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:baseInvalidComponent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:canvas"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:canvasContainer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:canvasElement"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:canvasNode"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:canvasPanel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:componentPlaceholder"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:errorComponent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:modelRemoteData"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:noUserAccessPlaceholder"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:palettePanel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:propertyPanel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:surfaceTemplate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:unsupportedFormFactorComponent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "frameworkEditor:warningComponent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "googleConnector:emailTransportServiceSetting"
         },
         {
@@ -103370,6 +104798,20 @@
           "label": null,
           "validFor": null,
           "value": "healthcloud:cancelHCAppointment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "healthcloud:careMgmtSlackChannelFlowLauncher"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "healthcloud:careMgmtSlackSetupPage"
         },
         {
           "active": true,
@@ -103579,6 +105021,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "healthcloud:medDevicesExpiringProductSerialNumbers"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "healthcloud:medDevicesMobileExpiringProductDetails"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "healthcloud:medDevicesVisitMap"
         },
         {
@@ -103733,6 +105189,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "healthcloud:myAppointmentsCommunity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "healthcloud:networkParticipation"
         },
         {
@@ -103748,6 +105211,13 @@
           "label": null,
           "validFor": null,
           "value": "healthcloud:patientIndexContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "healthcloud:patientIndexSetup"
         },
         {
           "active": true,
@@ -103783,6 +105253,13 @@
           "label": null,
           "validFor": null,
           "value": "healthcloud:pnmConfirmationPanelHeader"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "healthcloud:productExpirationRecords"
         },
         {
           "active": true,
@@ -103936,7 +105413,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "healthcloud:tasksAndInventoryStatus"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "healthcloud:transferRequests"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "healthcloud:unifiedHealthScoreContainer"
         },
         {
           "active": true,
@@ -104461,6 +105952,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "industries_automotive:automotive"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "industries_cds_common:manageParticipants"
         },
         {
@@ -104538,6 +106036,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "industries_cib:slackCibApp"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "industries_common:adminSetupAssistantContainer"
         },
         {
@@ -104545,7 +106050,14 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "industries_common:appointmentListViewContainer"
+          "value": "industries_common:chimeVideoCommunity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_common:chimeVideoUtility"
         },
         {
           "active": true,
@@ -104650,6 +106162,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "industries_common:myAppointments"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_common:myAppointmentsUtility"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "industries_common:newMemberModal"
         },
         {
@@ -104713,6 +106239,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "industries_common:recordTypeSelectionModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "industries_common:relationshipCardCommunity"
         },
         {
@@ -104741,7 +106274,14 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "industries_common:videoVisitContainer"
+          "value": "industries_common:timeline"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_common:timelineCommunity"
         },
         {
           "active": true,
@@ -104784,6 +106324,13 @@
           "label": null,
           "validFor": null,
           "value": "industries_loyalty_engine:ruleEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_loyalty_engine:tJProcessRulesCard"
         },
         {
           "active": true,
@@ -104888,6 +106435,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "industries_mfg_adv_forecast:advAccountForecastSetFieldPickerEdit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_mfg_adv_forecast:advAccountForecastSetFieldPickerView"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "industries_mfg_adv_forecast:advancedForecast"
         },
         {
@@ -104980,6 +106541,34 @@
           "label": null,
           "validFor": null,
           "value": "industries_mfg_forecast:recalculateForecastModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_mfg_program:mfgProgramTemplateFieldPickerEdit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_mfg_program:mfgProgramTemplateFieldPickerView"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_mfg_program:periodFieldPickerEdit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_mfg_program:periodFieldPickerView"
         },
         {
           "active": true,
@@ -105113,6 +106702,13 @@
           "label": null,
           "validFor": null,
           "value": "industries_mfg_rebates:referencedRebateType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "industries_mfg_service:mfgService"
         },
         {
           "active": true,
@@ -105491,6 +107087,13 @@
           "label": null,
           "validFor": null,
           "value": "isotope:tester"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "jsonxform:dominoApi"
         },
         {
           "active": true,
@@ -108682,6 +110285,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "lightningdocs:alert"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "lightningdocs:avatar"
         },
         {
@@ -108732,6 +110342,13 @@
           "label": null,
           "validFor": null,
           "value": "lightningdocs:combobox"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "lightningdocs:confirm"
         },
         {
           "active": true,
@@ -108962,6 +110579,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "lightningdocs:prompt"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "lightningdocs:radioGroup"
         },
         {
@@ -109151,6 +110775,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "lst:drlRelatedListEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "lst:drlSortPicklistEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "lst:listViewAutoCompleteWrapper"
         },
         {
@@ -109221,7 +110859,28 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "lst:relatedListSingleContainerFilterItemEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "lst:relatedListSingleContainerFilterListEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "lst:relatedListSingleContainerMobile"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "lst:upgradeRelatedListSingleInfo"
         },
         {
           "active": true,
@@ -110418,6 +112077,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "objectManager:flowTriggerDetailList"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "objectManager:globalSearchBox"
         },
         {
@@ -110698,6 +112364,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "objectManager:restrictionRulesDetail_ExternalObject"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "objectManager:restrictionRulesExpressionRHS"
         },
         {
@@ -110713,6 +112386,13 @@
           "label": null,
           "validFor": null,
           "value": "objectManager:restrictionRulesList"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "objectManager:restrictionRulesList_ExternalObject"
         },
         {
           "active": true,
@@ -110755,6 +112435,13 @@
           "label": null,
           "validFor": null,
           "value": "objectManager:setupComponent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "objectManager:slackRecordLayoutDetailList"
         },
         {
           "active": true,
@@ -111937,13 +113624,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "one:appNavMenu"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "one:appNavMenuPanel"
         },
         {
@@ -112091,13 +113771,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "one:consoleLayoutContainer2"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "one:consoleLi"
         },
         {
@@ -112106,13 +113779,6 @@
           "label": null,
           "validFor": null,
           "value": "one:consoleMaxTabCacheSetup"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "one:consoleNav"
         },
         {
           "active": true,
@@ -112154,13 +113820,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "one:consoleTabContainer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "one:consoleTabCustomizationPanel"
         },
         {
@@ -112168,21 +113827,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "one:consoleTabItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "one:consoleTabScrollManager"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "one:consoleTabset"
         },
         {
           "active": true,
@@ -112449,13 +114094,6 @@
           "label": null,
           "validFor": null,
           "value": "one:globalCreateItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "one:globalNav"
         },
         {
           "active": true,
@@ -112833,7 +114471,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "one:onboardingManager"
+          "value": "one:onboardingManagerV1"
         },
         {
           "active": true,
@@ -113365,28 +115003,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "one:workspace"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "one:workspace2"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "one:workspaceAPILoader"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "one:workspaceCollection"
         },
         {
           "active": true,
@@ -113890,6 +115507,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "opencti:transferModalFooter"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "opencti:userConsentModal"
         },
         {
@@ -114101,13 +115725,6 @@
           "label": null,
           "validFor": null,
           "value": "process_home:processHomeCreateMenu"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "process_migration:banner"
         },
         {
           "active": true,
@@ -116879,6 +118496,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_analytics_dataplatform:dataWorkbench"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_analytics_dataplatform:datasetDetails"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_analytics_dataplatform:mulesoftdatapath"
         },
         {
@@ -116943,6 +118574,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_appointmentbooking:flowConfirm"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_appointmentbooking:flowInvitee"
         },
         {
           "active": true,
@@ -117125,6 +118763,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_appointmentbooking:setupAssistantStepsSection"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_appointmentbooking:ssTroubleshootingUI"
         },
         {
           "active": true,
@@ -117803,6 +119448,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_cdp:dataActionTargetEventMetrics"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_cdp:dataActionTargetKeyPanel"
         },
         {
@@ -117894,7 +119546,42 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_cdp:dataShareObjectsPanel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_cdp:dataShareTargetsPanel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_cdp:dataSourceConfig"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_cdp:dataSpaceAddDataAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_cdp:dataSpaceAddDataWizard"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_cdp:dataSpaceObjects"
         },
         {
           "active": true,
@@ -118181,6 +119868,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_cdp:exploreInAnalyticsAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_cdp:identityResolutionDeleteAction"
         },
         {
@@ -118286,6 +119980,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_cdp:marketSegmentActivationCopyAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_cdp:marketSegmentActivationDeleteAction"
         },
         {
@@ -118349,6 +120050,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_cdp:marketSegmentCreateEditWizard"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_cdp:marketSegmentDeleteAction"
         },
         {
@@ -118392,6 +120100,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_cdp:marketSegmentEditRulesAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_cdp:marketSegmentNewAction"
         },
         {
           "active": true,
@@ -118860,6 +120575,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_commerce_os:importPendingOrderSummary"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_commerce_pricing:associatePriceAdjustmentSchedule"
         },
         {
@@ -119077,6 +120799,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_commerce_store:storeDetailHighlightsPanel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_commerce_store:storeIntConfirm"
         },
         {
@@ -119126,6 +120855,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_commerce_store:storeIntegrationsHeader"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_commerce_store:storeIntegrationsHelpReferences"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_commerce_store:storeIntegrationsSetupFlow"
         },
         {
@@ -119155,6 +120898,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_commerce_store:storeSetupAssistant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_commerce_store:storeTax"
         },
         {
           "active": true,
@@ -119357,6 +121107,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_compliantsharing:participantRoleLookupWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_conversation:callCoachingWelcomeMat"
         },
         {
@@ -119372,6 +121129,20 @@
           "label": null,
           "validFor": null,
           "value": "runtime_conversation:callCoachingWelcomeMatTile"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_conversation:followUpContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_conversation:followUpContainerDesignSubstitute"
         },
         {
           "active": true,
@@ -119442,6 +121213,160 @@
           "label": null,
           "validFor": null,
           "value": "runtime_einstein_discovery:einsteinDiscoveryPanel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:deleteProgramProgress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureBuilder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureBuilderCreateFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureBuilderDefinitionStepWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureBuilderFilterBuilder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureBuilderFilterRow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureBuilderFiltersStep"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureBuilderPreviewWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureStatusUpdate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:measureWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:navigateToEnablementBuilder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:programAssignment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:programStatusUpdate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:salesWinCelebration"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:salesWinManager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:salesWinModalManager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:salesWinQuestionnaireStep"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:salesWinQuip"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:salesWinSlidesContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:salesWinVideo"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:salesWinVideoUploadPanel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_enablement:serverDataLibInit"
         },
         {
           "active": true,
@@ -119763,6 +121688,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_essential_checkout:redirectToYourAccount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_essential_checkout:setupManageLicensesFlow"
         },
         {
@@ -119946,6 +121878,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_hello_studio:pageWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_hello_studio:pathAssistantWrapper"
         },
         {
           "active": true,
@@ -120295,6 +122234,34 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_industries_actionplan:reorderItemsModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_actionplan:reorderTemplateItemsModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_actionplan:scheduleRecurrence"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_actionplan:scheduleRecurrenceModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_industries_actionplan:signatureTaskManager"
         },
         {
@@ -120372,6 +122339,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_industries_arcgraph:arcGraph"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_industries_assessment:newQuestionAction"
         },
         {
@@ -120394,6 +122368,20 @@
           "label": null,
           "validFor": null,
           "value": "runtime_industries_churn_ED:table"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_clm:contractDocumentView"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_documentreader:extractedValuesFormatter"
         },
         {
           "active": true,
@@ -120471,6 +122459,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_industries_fsc:rvTabset"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_fsc:serviceExcellenceSettings"
         },
         {
           "active": true,
@@ -120765,6 +122760,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_industries_insurance:quickActionPanel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_interaction_decisionmatrix:openDecisionMatrix"
         },
         {
           "active": true,
@@ -121331,7 +123333,28 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_industries_loyalty:vdProduct"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_industries_publicsector:deleteMeFirst"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_publicsector:omniAssessmentRuntime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_publicsector:questionSelectionNavigation"
         },
         {
           "active": true,
@@ -121534,7 +123557,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_industries_sustainability:beiBuilder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_industries_sustainability:dataVisualization"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_industries_sustainability:fillDataGaps"
         },
         {
           "active": true,
@@ -121821,6 +123858,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_learning_essentials_welcome:easyFeedbackSurveyWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_learning_essentials_welcome:easyTrialBannerWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_learning_essentials_welcome:onboardingAppTemplate"
         },
         {
@@ -121947,6 +123998,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_marketing_btobma:marketingAppExtActionActionParams"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_marketing_btobma:marketingAppExtActionActionSchema"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_marketing_btobma:marketingAppExtActionActionSelector"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_marketing_btobma:marketingAppExtActivityEndpointUrl"
         },
         {
@@ -122004,6 +124076,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_marketing_btobma:outputRichText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_marketing_btobma:outputUrl"
         },
         {
           "active": true,
@@ -122102,6 +124181,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_omnistudio:prefSelector"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_omnistudio:viewOmniscript"
         },
         {
           "active": true,
@@ -123319,6 +125405,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_revenue_admin_console:revCatalogList"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_revenue_admin_console:revConfigWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_revenue_admin_console:revPricingWorkspace"
         },
         {
@@ -123340,6 +125440,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_revenue_admin_console:subMgmtGettingStarted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_revenue_billingbatchinvoices:newInvoiceRunScheduler"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_revenue_billingbatchpayments:bbsFrequencyOptions"
         },
         {
@@ -123355,6 +125469,20 @@
           "label": null,
           "validFor": null,
           "value": "runtime_revenue_billingbatchpayments:newPaymentScheduler"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_revenue_insights:invoiceLatePaymentInsightsPopOver"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_revenue_insights:invoiceLatePaymentListViewScoreRenderer"
         },
         {
           "active": true,
@@ -124131,6 +126259,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_sales_activities:manageAssociations"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_sales_activities:manyWhoInputLookup"
         },
         {
@@ -124286,6 +126421,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_sales_activities:taskContentInner"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_sales_activities:taskDateOverride"
         },
         {
           "active": true,
@@ -124824,6 +126966,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_sales_campaign:marketingAssetContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_sales_campaign:massAddMember"
         },
         {
@@ -125055,6 +127204,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_sales_easy:dockingPanelChatClient"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_sales_easy:eacConfigSetupFinish"
         },
         {
@@ -125090,7 +127246,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_sales_easy:easyChatBubble"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_sales_easy:emptyContent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_sales_easy:externalConnectorSetupFinish"
         },
         {
           "active": true,
@@ -125105,6 +127275,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_sales_easy:objectHomeDesktop"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_sales_easy:termsOfService"
         },
         {
           "active": true,
@@ -125321,6 +127498,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_sales_emailtemplateui:starterTemplateLauncher"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_sales_emailtemplateui:templateDataProvider"
         },
         {
@@ -125385,69 +127569,6 @@
           "label": null,
           "validFor": null,
           "value": "runtime_sales_emailtemplateui:templateWarningBanner"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:lwcTester"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:salesWinCelebration"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:salesWinManager"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:salesWinModalManager"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:salesWinQuestionnaireStep"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:salesWinQuip"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:salesWinSlidesContainer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:salesWinVideo"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "runtime_sales_enablement:salesWinVideoUploadPanel"
         },
         {
           "active": true,
@@ -127680,7 +129801,14 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "runtime_sales_todo_list:todoListContainer"
+          "value": "runtime_sales_todo_list:recordLookupWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_sales_todo_list:unifiedToDoListAuraWrapper"
         },
         {
           "active": true,
@@ -128338,7 +130466,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "runtime_service_fieldservice:attributes"
+          "value": "runtime_service_fieldservice:assetAttributeValue"
         },
         {
           "active": true,
@@ -128360,6 +130488,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_service_fieldservice:bundleMemberAddiFieldNameRenderer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_service_fieldservice:bundlerFieldNameRenderer"
         },
         {
           "active": true,
@@ -128416,6 +130551,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_service_fieldservice:criteriaFieldPicker"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_service_fieldservice:dataTypeField"
         },
         {
           "active": true,
@@ -128555,6 +130697,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_service_fieldservice:mpFreqMigrationImpactAnalysisTool"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_service_fieldservice:objectHierarchy"
         },
         {
@@ -128591,6 +130740,20 @@
           "label": null,
           "validFor": null,
           "value": "runtime_service_fieldservice:quantityMismatchWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_service_fieldservice:receiveTransfer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_service_fieldservice:receiveTransferEditStatus"
         },
         {
           "active": true,
@@ -129171,6 +131334,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_service_livemessage:messagingSessionPlatformType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_service_livemessage:messagingTemplate"
         },
         {
@@ -129311,6 +131481,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "runtime_service_omnichannel:omniHeadlessUtility"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "runtime_service_omnichannel:omniWidget"
         },
         {
@@ -129389,6 +131566,13 @@
           "label": null,
           "validFor": null,
           "value": "runtime_service_predictions:bulkConvertToQuickTextModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_service_predictions:bulkDeleteReplyText"
         },
         {
           "active": true,
@@ -129578,6 +131762,20 @@
           "label": null,
           "validFor": null,
           "value": "runtime_service_predictions:recommendationLookupOption"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_service_predictions:replyRecommendationLanguageList"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_service_predictions:replyRecommendationScopedNotification"
         },
         {
           "active": true,
@@ -129970,6 +132168,62 @@
           "label": null,
           "validFor": null,
           "value": "runtime_service_workforce_engagement_config:jpMappings"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_thp_builder:contentPropertyEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_thp_builder:enablementBuilderTemplate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_thp_builder:linkEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_thp_builder:measureEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_thp_builder:trailheadModuleEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_thp_builder:videoEditor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_thp_learning:programsDataProvider"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "runtime_video_platform:testLWCComponents"
         },
         {
           "active": true,
@@ -130564,6 +132818,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "salesforceIdentity:oauthOidcSettings"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "salesforceIdentity:searchInput"
         },
         {
@@ -130943,6 +133204,34 @@
           "label": null,
           "validFor": null,
           "value": "securityHub:orgManagement"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "securityHub:policyHealthCheckBaselineForm"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "securityHub:policyIpRangeForm"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "securityHub:policyPasswordForm"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "securityHub:policySessionSettingsForm"
         },
         {
           "active": true,
@@ -132692,6 +134981,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_cdp:dataSpacesHomePage"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_cdp:dataSpacesRecordPage"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_cdp:googleCloudStorageSetup"
         },
         {
@@ -132909,6 +135212,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_einstein_doccapture:einsteinDocumentReader"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_einstein_shared:assessorItem"
         },
         {
@@ -132924,6 +135234,20 @@
           "label": null,
           "validFor": null,
           "value": "setup_einstein_shared:builderAppTemplate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_einstein_shared:cloneDialog"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_einstein_shared:docReaderLWCServerCaller"
         },
         {
           "active": true,
@@ -133000,6 +135324,34 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_exploration_consent:explorationConsentSetup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_accounting_subledger:accountingFieldMappingsWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_accounting_subledger:accountingSetsWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_accounting_subledger:accountingSubledgerSettingsWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_industries_advancedforecast:advAccForecastSettings"
         },
         {
@@ -133021,6 +135373,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_industries_aiaccelerator:aiAcceleratorSetup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_automotive_foundation:automotiveFoundationSettings"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_churnprediction:churnPredictionSetup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_industries_clm:contractTypeConfigsList"
         },
         {
@@ -133035,6 +135408,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_industries_clm:createContractFromOpp"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_industries_clm:editContractTypeConfigs"
         },
         {
@@ -133043,6 +135423,20 @@
           "label": null,
           "validFor": null,
           "value": "setup_industries_clm:editContractTypes"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_clm:updateContractFromOpp"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_common:identityVerificationSetup"
         },
         {
           "active": true,
@@ -133238,6 +135632,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_industries_documentreader:IDRHome"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_documentreader:IFRHome"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_industries_documentreader:customDataTableWrapper"
         },
         {
@@ -133336,6 +135744,41 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_industries_mfg_service:mfgServiceSetup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_mfgprogram:mfgProgramDetailedSettings"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_mfgprogram:mfgProgramSettings"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_mfgprogram:mfgProgramTemplateEdit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_mfgprogram:openProgramTemplate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_industries_objectdetection:datasetTrainAction"
         },
         {
@@ -133372,6 +135815,48 @@
           "label": null,
           "validFor": null,
           "value": "setup_industries_objectdetection:objectDetectionHome"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_publicsector:businessRulesEngineSetupAssistant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_publicsector:carePlanBenefitSettings"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_publicsector:digitalExperienceSetupAssistant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_publicsector:foundationSetupAssistant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_publicsector:inspectionManagementSetupAssistant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_publicsector:licenseAndPermitSetupAssistant"
         },
         {
           "active": true,
@@ -133512,6 +135997,13 @@
           "label": null,
           "validFor": null,
           "value": "setup_industries_tpm:rcgProcessingServiceSettings"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_industries_vertical_integration:systemIntegrationsLandingPage"
         },
         {
           "active": true,
@@ -133966,13 +136458,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "setup_mobile_appclone:iosCodeSignSection"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "setup_mobile_appclone:iosIconsSection"
         },
         {
@@ -133995,13 +136480,6 @@
           "label": null,
           "validFor": null,
           "value": "setup_mobile_appclone:iosMetadataReadOnly"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "setup_mobile_appclone:iosPushSection"
         },
         {
           "active": true,
@@ -134190,6 +136668,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_mobile_appclone:securitySDKSection"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_mobile_appclone:setupTile"
         },
         {
@@ -134246,7 +136731,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_mobile_security:mobileSecurityConnectedApp"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_mobile_security:mobileSecurityHome"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_motivation:motivationSetup"
         },
         {
           "active": true,
@@ -134498,7 +136997,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "setup_platform_connectcenter:dataModels"
+          "value": "setup_platform_connectcenter:dataModel"
         },
         {
           "active": true,
@@ -134625,6 +137124,13 @@
           "label": null,
           "validFor": null,
           "value": "setup_platform_externalconnection:privateConnectionTopologies"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_platform_externaldatasource:externalObjectQualifiers"
         },
         {
           "active": true,
@@ -134814,6 +137320,13 @@
           "label": null,
           "validFor": null,
           "value": "setup_platform_ltngbolt:lsfNewFlowCategory"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_platform_namedcredential:namedCredentialDetail"
         },
         {
           "active": true,
@@ -135094,6 +137607,13 @@
           "label": null,
           "validFor": null,
           "value": "setup_platform_sfdx:cannotExpireWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_platform_sfdx:devOpsCenterSetupPage"
         },
         {
           "active": true,
@@ -135409,6 +137929,13 @@
           "label": null,
           "validFor": null,
           "value": "setup_release_update:tooltip"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_revenue_insights:invoiceScoringSetup"
         },
         {
           "active": true,
@@ -137046,6 +139573,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_service:liveMessageEnhancedMessaging"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_service:liveMessageProceedOmni"
         },
         {
@@ -137445,6 +139979,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_service:simpleAuthInviteUserFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_service:simpleAuthInviteUserModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_service:slackApexCustomApps"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_service:slackGettingStarted"
         },
         {
@@ -137635,13 +140190,6 @@
           "label": null,
           "validFor": null,
           "value": "setup_service_fieldservice:assetSettings"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "setup_service_fieldservice:attributeDefinition"
         },
         {
           "active": true,
@@ -137991,6 +140539,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_service_livemessage:messagingSessionCloseConversationActionWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_service_livemessage:messagingTemplateChannelSection"
         },
         {
@@ -138307,6 +140862,13 @@
           "label": null,
           "validFor": null,
           "value": "setup_service_predictions:filterSelectionScreen"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_service_predictions:filterView"
         },
         {
           "active": true,
@@ -138712,6 +141274,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "setup_service_usecaseexplorer:usecaseExplorerViewReport"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "setup_service_voice:addContactCenterAction"
         },
         {
@@ -138755,6 +141324,13 @@
           "label": null,
           "validFor": null,
           "value": "setup_service_voice:amazonContactCenterRecordDetails"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_service_voice:assignToGroupModal"
         },
         {
           "active": true,
@@ -138818,6 +141394,20 @@
           "label": null,
           "validFor": null,
           "value": "setup_service_voice:contactCenterDetailsStep"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_service_voice:contactCenterGroupGrid"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_service_voice:contactCenterGroupModal"
         },
         {
           "active": true,
@@ -138930,6 +141520,13 @@
           "label": null,
           "validFor": null,
           "value": "setup_service_voice:importContactCenter"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "setup_service_voice:queueSyncingPrefToggle"
         },
         {
           "active": true,
@@ -140203,6 +142800,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "sfa:personAccountEnablementWrapper"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "sfa:pipelineInspectionAction"
         },
         {
@@ -140399,6 +143003,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "sfdc_payments_console:placeholder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "siteforce:b2bBody"
         },
         {
@@ -140477,6 +143088,13 @@
           "label": null,
           "validFor": null,
           "value": "siteforce:cptThemeCss"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "siteforce:customerErrorHandler"
         },
         {
           "active": true,
@@ -140987,6 +143605,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "siteforce:systemErrorHandler"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "siteforce:themeLayoutStarter"
         },
         {
@@ -141121,6 +143746,34 @@
           "label": null,
           "validFor": null,
           "value": "siteforceBuilder:siteLinkDropdown"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "spcm_industries_publicsector:addServiceBenefitContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "spcm_industries_publicsector:addServiceGoalContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "spcm_industries_publicsector:launchModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "spcm_industries_publicsector:sptGuidedFlowWrapper"
         },
         {
           "active": true,
@@ -142499,6 +145152,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "survey:runtimeMatrix"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "survey:runtimeMultiChoice"
         },
         {
@@ -142892,6 +145552,13 @@
           "label": null,
           "validFor": null,
           "value": "survey:tester_builderLeftPanel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "survey:thankYouOptions"
         },
         {
           "active": true,
@@ -146062,6 +148729,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "voice:durationRendererTimestamp"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "voice:feedbackPanel"
         },
         {
@@ -146475,6 +149149,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "wave:analyticsSpinner"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "wave:annotationFeedControl"
         },
         {
@@ -146497,6 +149178,13 @@
           "label": null,
           "validFor": null,
           "value": "wave:annotationPublisherControl"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wave:appHistoryControlPanel"
         },
         {
           "active": true,
@@ -146552,13 +149240,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "wave:loadingSpinnerCard"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "wave:notificationCreateModal"
         },
         {
@@ -146574,13 +149255,6 @@
           "label": null,
           "validFor": null,
           "value": "wave:recipeConfigurationSettings"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "wave:recipeFiscalConfigurationSettings"
         },
         {
           "active": true,
@@ -147315,7 +149989,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "wfm:schedulingPolicies"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "wfm:setupGettingStarted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm:shiftSegmentTypes"
         },
         {
           "active": true,
@@ -147434,6 +150122,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "wfm_analytics:intradayCPChart"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_analytics:intradayGraphViewContainer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "wfm_analytics:updateCapacityUnit"
         },
         {
@@ -147463,6 +150165,20 @@
           "label": null,
           "validFor": null,
           "value": "wfm_analytics:workforceCapacityDashboard"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_intraday_management:intradayManagementTab"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_scheduling:addSegmentsWrapper"
         },
         {
           "active": true,
@@ -147561,6 +150277,48 @@
           "label": null,
           "validFor": null,
           "value": "wfm_scheduling:shiftMassActionsConfirmModalFooter"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_scheduling:shiftSegmentType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_scheduling:shiftSegmentTypeDeleteModal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_scheduling:shiftSegmentTypeModalFooter"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_scheduling:shiftSegmentTypeModalFormBody"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_scheduling:shiftSegmentTypeModalHeader"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wfm_scheduling:shiftSegmentTypeModalViewBody"
         },
         {
           "active": true,

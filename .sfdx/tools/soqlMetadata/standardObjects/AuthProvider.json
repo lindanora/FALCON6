@@ -136,6 +136,20 @@
           "label": "Slack",
           "validFor": null,
           "value": "Slack"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hubspot",
+          "validFor": null,
+          "value": "HubSpot"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Microsoft",
+          "validFor": null,
+          "value": "Microsoft"
         }
       ],
       "referenceTo": [],

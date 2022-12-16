@@ -260,7 +260,14 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ActivityRecurrence2Exception"
+          "value": "AppointmentInvitation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AppointmentInvitee"
         },
         {
           "active": true,
@@ -366,48 +373,6 @@
           "label": null,
           "validFor": null,
           "value": "CampaignMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartCheckoutSession"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartDeliveryGroup"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartRelatedItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartTax"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartValidationOutput"
         },
         {
           "active": true,
@@ -806,6 +771,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "LearningItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LearningItemAssignment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LearningItemProgress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "LearningLinkProgress"
         },
         {
@@ -890,6 +876,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "ManagedContentTranslationJobLanguage"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "ManagedContentVersion"
         },
         {
@@ -905,27 +898,6 @@
           "label": null,
           "validFor": null,
           "value": "MessagingSession"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MLModel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MLModelFactor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MLModelFactorComponent"
         },
         {
           "active": true,
@@ -1254,6 +1226,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "TenantSecurityAlertRuleSelectedTenant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "TenantSecurityApiAnomaly"
         },
         {
@@ -1394,6 +1373,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "TenantSecurityTenantChangeLog"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TenantSecurityTenantInfo"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TenantSecurityTransactionPolicyTrend"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "TenantSecurityTrustedIpRangeTrend"
         },
         {
@@ -1451,20 +1451,6 @@
           "label": null,
           "validFor": null,
           "value": "UserProvisioningRequest"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WebCart"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WebCartAdjustmentBasis"
         },
         {
           "active": true,

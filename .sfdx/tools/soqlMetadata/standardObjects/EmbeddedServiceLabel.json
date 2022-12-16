@@ -1770,6 +1770,160 @@
           "label": null,
           "validFor": null,
           "value": "EM_Container_Base_SystemMessageTransferRequestTryAgain"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Chat_ChatBody_AgentTypingIndicatorAssistiveText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Chat_ChatBody_ChatbotTypingIndicatorAssistiveText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Container_Base_InputFooterTextAreaPlaceholderOnlyParticipant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Container_Base_AgentJoinAnnouncement"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Container_Base_AgentLeaveAnnouncement"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Container_Base_JWTExpiredAnnouncement"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Container_Base_ParticipantJoinedText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Container_Base_ParticipantLeftText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Container_Base_NewMessageText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Container_Base_MultipleNewMessagesText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Container_Base_JwtExpiredText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Container_Base_TransferInitiatedText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Container_Base_TransferFailedText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Chat_ChatBody_NotSent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Chat_ChatBody_SpinnerDefaultAssistiveText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Chat_ChatBody_FetchMoreEntriesSpinnerAssistiveText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Container_Base_MinimizeButtonAssistiveText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Container_Base_CloseButtonAssistiveText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Container_Base_ConfirmationDialogMenuItemAssistiveText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Container_Base_MinimizedNotificationAssistiveText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Container_Base_MinimizedStateAssistiveText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EM_Chat_ChatBody_NotRoutedToAgentRoutingResult"
         }
       ],
       "referenceTo": [],

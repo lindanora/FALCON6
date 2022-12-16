@@ -6335,9 +6335,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Zimbabwe Business Registration Number",
+          "validFor": null,
+          "value": "00767"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Philippines Tax Identification Number",
           "validFor": null,
           "value": "00772"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Philippines Company Incorporation Number",
+          "validFor": null,
+          "value": "00773"
         },
         {
           "active": true,
@@ -6356,6 +6370,20 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Companies Commission of Malaysia Registration Number",
+          "validFor": null,
+          "value": "00832"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Office of Scottish Charity Regulator Charity Number ",
+          "validFor": null,
+          "value": "00833"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Charity Commission for England & Wales Charity Number",
           "validFor": null,
           "value": "00835"
@@ -6366,6 +6394,27 @@
           "label": "UK Financial Conduct Authority Reference Number",
           "validFor": null,
           "value": "00836"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Honduras National Tax Registration Number",
+          "validFor": null,
+          "value": "00838"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bermuda Business Registration Number",
+          "validFor": null,
+          "value": "00845"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cayman Islands Business Registration Number",
+          "validFor": null,
+          "value": "00848"
         }
       ],
       "referenceTo": [],

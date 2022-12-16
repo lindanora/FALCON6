@@ -99,6 +99,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Application_Log__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Asset"
         },
         {
@@ -414,6 +421,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Post__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Pricebook2"
         },
         {
@@ -618,13 +632,6 @@
           "label": null,
           "validFor": null,
           "value": "UserAppMenuItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WebStore"
         },
         {
           "active": true,

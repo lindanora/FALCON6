@@ -153,6 +153,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Account Status",
+          "validFor": null,
+          "value": "Account_Status__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Active",
           "validFor": null,
           "value": "Active__c"
@@ -349,6 +356,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Number of Contacts",
+          "validFor": null,
+          "value": "Number_of_Contacts__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Number of Locations",
           "validFor": null,
           "value": "NumberofLocations__c"
@@ -541,6 +555,13 @@
           "label": "Upsell Opportunity",
           "validFor": null,
           "value": "UpsellOpportunity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "VIP",
+          "validFor": null,
+          "value": "VIP__c"
         },
         {
           "active": true,

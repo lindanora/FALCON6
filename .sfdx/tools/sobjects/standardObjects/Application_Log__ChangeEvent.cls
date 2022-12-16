@@ -6,11 +6,12 @@
 // To edit your sObjects and their fields, edit the corresponding
 //     .object-meta.xml and .field-meta.xml files.
 
-global class WebStore {
+global class Application_Log__ChangeEvent {
     global Id Id;
-    global SObject Owner;
+    global String ReplayId;
+    global Object ChangeEventHeader;
+    global User Owner;
     global Id OwnerId;
-    global Boolean IsDeleted;
     global String Name;
     global Datetime CreatedDate;
     global User CreatedBy;
@@ -18,16 +19,13 @@ global class WebStore {
     global Datetime LastModifiedDate;
     global User LastModifiedBy;
     global Id LastModifiedById;
-    global Datetime SystemModstamp;
-    global Datetime LastViewedDate;
-    global Datetime LastReferencedDate;
-    global List<ProcessInstance> ProcessInstances;
-    global List<ProcessInstanceHistory> ProcessSteps;
-    global List<WebStoreShare> Shares;
-    global List<FlowRecordRelation> RelatedRecord;
-    global List<WebCart> WebStore;
+    global String Log_Type__c;
+    global String Target_Type__c;
+    global String Target_Name__c;
+    global String Message__c;
+    global String Stack_Trace__c;
 
-    global WebStore () 
+    global Application_Log__ChangeEvent () 
     {
     }
 }

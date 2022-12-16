@@ -173,9 +173,13 @@
       "picklistValues": [],
       "referenceTo": [
         "Account",
+        "Application_Log__c",
         "Contact",
+        "Country_Code__c",
+        "DefaultTicketInfo__c",
         "Individual",
         "Lead",
+        "Post__c",
         "Salesforce_Project__c",
         "Salesforce_Ticket__c"
       ],

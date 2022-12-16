@@ -167,6 +167,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Customer Priority",
+          "validFor": null,
+          "value": "Customer_Priority__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Data.com Key",
           "validFor": null,
           "value": "Jigsaw"
@@ -506,6 +513,13 @@
           "label": "Title",
           "validFor": null,
           "value": "Title"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "VIP",
+          "validFor": null,
+          "value": "VIP__c"
         }
       ],
       "referenceTo": [],

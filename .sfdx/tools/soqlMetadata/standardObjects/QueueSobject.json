@@ -60,6 +60,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Application_Log__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AppointmentInvitation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "AuthorizationForm"
         },
         {
@@ -326,6 +340,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Post__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Problem"
         },
         {
@@ -411,13 +432,6 @@
           "label": null,
           "validFor": null,
           "value": "UserProvisioningRequest"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WebCart"
         },
         {
           "active": true,

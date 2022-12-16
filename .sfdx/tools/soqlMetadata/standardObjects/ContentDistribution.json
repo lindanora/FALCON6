@@ -211,13 +211,17 @@
       "picklistValues": [],
       "referenceTo": [
         "Account",
+        "Application_Log__c",
         "Campaign",
         "Case",
         "Contact",
+        "Country_Code__c",
+        "DefaultTicketInfo__c",
         "EmailMessage",
         "Lead",
         "ListEmail",
         "Opportunity",
+        "Post__c",
         "Salesforce_Project__c",
         "Salesforce_Ticket__c"
       ],

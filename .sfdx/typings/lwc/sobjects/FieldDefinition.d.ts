@@ -190,10 +190,6 @@ declare module "@salesforce/schema/FieldDefinition.IsPolymorphicForeignKey" {
   const IsPolymorphicForeignKey:boolean;
   export default IsPolymorphicForeignKey;
 }
-declare module "@salesforce/schema/FieldDefinition.IsAiPredictionField" {
-  const IsAiPredictionField:boolean;
-  export default IsAiPredictionField;
-}
 declare module "@salesforce/schema/FieldDefinition.BusinessOwner" {
   const BusinessOwner:any;
   export default BusinessOwner;

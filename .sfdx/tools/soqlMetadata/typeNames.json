@@ -1,37 +1,5 @@
 [
   {
-    "name": "AIApplication",
-    "custom": false
-  },
-  {
-    "name": "AIApplicationConfig",
-    "custom": false
-  },
-  {
-    "name": "AIInsightAction",
-    "custom": false
-  },
-  {
-    "name": "AIInsightFeedback",
-    "custom": false
-  },
-  {
-    "name": "AIInsightReason",
-    "custom": false
-  },
-  {
-    "name": "AIInsightValue",
-    "custom": false
-  },
-  {
-    "name": "AIPredictionEvent",
-    "custom": false
-  },
-  {
-    "name": "AIRecordInsight",
-    "custom": false
-  },
-  {
     "name": "AcceptedEventRelation",
     "custom": false
   },
@@ -204,11 +172,43 @@
     "custom": false
   },
   {
-    "name": "AppUsageAssignment",
+    "name": "Application_Log__ChangeEvent",
     "custom": false
   },
   {
+    "name": "Application_Log__History",
+    "custom": false
+  },
+  {
+    "name": "Application_Log__Share",
+    "custom": false
+  },
+  {
+    "name": "Application_Log__c",
+    "custom": true
+  },
+  {
     "name": "AppointmentAssignmentPolicy",
+    "custom": false
+  },
+  {
+    "name": "AppointmentInvitation",
+    "custom": false
+  },
+  {
+    "name": "AppointmentInvitationFeed",
+    "custom": false
+  },
+  {
+    "name": "AppointmentInvitationHistory",
+    "custom": false
+  },
+  {
+    "name": "AppointmentInvitationShare",
+    "custom": false
+  },
+  {
+    "name": "AppointmentInvitee",
     "custom": false
   },
   {
@@ -440,7 +440,15 @@
     "custom": false
   },
   {
+    "name": "BriefcaseAssignmentChangeEvent",
+    "custom": false
+  },
+  {
     "name": "BriefcaseDefinition",
+    "custom": false
+  },
+  {
+    "name": "BriefcaseDefinitionChangeEvent",
     "custom": false
   },
   {
@@ -496,6 +504,10 @@
     "custom": false
   },
   {
+    "name": "CalloutInfo__mdt",
+    "custom": true
+  },
+  {
     "name": "Campaign",
     "custom": false
   },
@@ -533,30 +545,6 @@
   },
   {
     "name": "CardPaymentMethod",
-    "custom": false
-  },
-  {
-    "name": "CartCheckoutSession",
-    "custom": false
-  },
-  {
-    "name": "CartDeliveryGroup",
-    "custom": false
-  },
-  {
-    "name": "CartItem",
-    "custom": false
-  },
-  {
-    "name": "CartRelatedItem",
-    "custom": false
-  },
-  {
-    "name": "CartTax",
-    "custom": false
-  },
-  {
-    "name": "CartValidationOutput",
     "custom": false
   },
   {
@@ -964,6 +952,10 @@
     "custom": false
   },
   {
+    "name": "ContentDocumentChangeEvent",
+    "custom": false
+  },
+  {
     "name": "ContentDocumentFeed",
     "custom": false
   },
@@ -973,6 +965,10 @@
   },
   {
     "name": "ContentDocumentLink",
+    "custom": false
+  },
+  {
+    "name": "ContentDocumentLinkChangeEvent",
     "custom": false
   },
   {
@@ -1009,6 +1005,10 @@
   },
   {
     "name": "ContentVersion",
+    "custom": false
+  },
+  {
+    "name": "ContentVersionChangeEvent",
     "custom": false
   },
   {
@@ -1092,6 +1092,10 @@
     "custom": false
   },
   {
+    "name": "Country_Code__c",
+    "custom": true
+  },
+  {
     "name": "CredentialStuffingEvent",
     "custom": false
   },
@@ -1117,6 +1121,14 @@
   },
   {
     "name": "CreditMemoInvApplication",
+    "custom": false
+  },
+  {
+    "name": "CreditMemoInvApplicationFeed",
+    "custom": false
+  },
+  {
+    "name": "CreditMemoInvApplicationHistory",
     "custom": false
   },
   {
@@ -1184,6 +1196,10 @@
     "custom": false
   },
   {
+    "name": "Custom_Notification__e",
+    "custom": true
+  },
+  {
     "name": "Customer",
     "custom": false
   },
@@ -1221,6 +1237,10 @@
   },
   {
     "name": "DataAssessmentValueMetric",
+    "custom": false
+  },
+  {
+    "name": "DataObjectDataChgEvent",
     "custom": false
   },
   {
@@ -1282,6 +1302,10 @@
   {
     "name": "DeclinedEventRelation",
     "custom": false
+  },
+  {
+    "name": "DefaultTicketInfo__c",
+    "custom": true
   },
   {
     "name": "DeleteEvent",
@@ -1366,6 +1390,10 @@
   {
     "name": "EmailTemplateChangeEvent",
     "custom": false
+  },
+  {
+    "name": "Email_Domain__mdt",
+    "custom": true
   },
   {
     "name": "EmbeddedServiceDetail",
@@ -1484,7 +1512,15 @@
     "custom": false
   },
   {
+    "name": "ExpressionSetView",
+    "custom": false
+  },
+  {
     "name": "ExternalDataSource",
+    "custom": false
+  },
+  {
+    "name": "ExternalDataSrcDescriptor",
     "custom": false
   },
   {
@@ -1641,6 +1677,18 @@
   },
   {
     "name": "FlowStageRelation",
+    "custom": false
+  },
+  {
+    "name": "FlowTestResult",
+    "custom": false
+  },
+  {
+    "name": "FlowTestResultShare",
+    "custom": false
+  },
+  {
+    "name": "FlowTestView",
     "custom": false
   },
   {
@@ -2032,34 +2080,6 @@
     "custom": false
   },
   {
-    "name": "MLField",
-    "custom": false
-  },
-  {
-    "name": "MLModel",
-    "custom": false
-  },
-  {
-    "name": "MLModelFactor",
-    "custom": false
-  },
-  {
-    "name": "MLModelFactorComponent",
-    "custom": false
-  },
-  {
-    "name": "MLModelMetric",
-    "custom": false
-  },
-  {
-    "name": "MLPredictionDefinition",
-    "custom": false
-  },
-  {
-    "name": "MLRecommendationDefinition",
-    "custom": false
-  },
-  {
     "name": "Macro",
     "custom": false
   },
@@ -2093,6 +2113,14 @@
   },
   {
     "name": "MailmergeTemplate",
+    "custom": false
+  },
+  {
+    "name": "ManagedContent",
+    "custom": false
+  },
+  {
+    "name": "ManagedContentChannel",
     "custom": false
   },
   {
@@ -2508,6 +2536,18 @@
     "custom": false
   },
   {
+    "name": "Post__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "Post__Share",
+    "custom": false
+  },
+  {
+    "name": "Post__c",
+    "custom": true
+  },
+  {
     "name": "Pricebook2",
     "custom": false
   },
@@ -2716,6 +2756,10 @@
     "custom": false
   },
   {
+    "name": "RecommendationResponse",
+    "custom": false
+  },
+  {
     "name": "RecordAction",
     "custom": false
   },
@@ -2737,6 +2781,14 @@
   },
   {
     "name": "RefundLinePayment",
+    "custom": false
+  },
+  {
+    "name": "RelatedListColumnDefinition",
+    "custom": false
+  },
+  {
+    "name": "RelatedListDefinition",
     "custom": false
   },
   {
@@ -3436,31 +3488,7 @@
     "custom": false
   },
   {
-    "name": "WebCart",
-    "custom": false
-  },
-  {
-    "name": "WebCartAdjustmentBasis",
-    "custom": false
-  },
-  {
-    "name": "WebCartHistory",
-    "custom": false
-  },
-  {
-    "name": "WebCartShare",
-    "custom": false
-  },
-  {
     "name": "WebLink",
-    "custom": false
-  },
-  {
-    "name": "WebStore",
-    "custom": false
-  },
-  {
-    "name": "WebStoreShare",
     "custom": false
   },
   {

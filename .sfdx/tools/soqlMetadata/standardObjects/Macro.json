@@ -281,6 +281,20 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Application Log",
+          "validFor": null,
+          "value": "Application_Log__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Appointment Invitation",
+          "validFor": null,
+          "value": "AppointmentInvitation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Appointment Topic Time Slot",
           "validFor": null,
           "value": "AppointmentTopicTimeSlot"
@@ -470,6 +484,20 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Credit Memo Invoice Application",
+          "validFor": null,
+          "value": "CreditMemoInvApplication"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Credit Memo Line",
+          "validFor": null,
+          "value": "CreditMemoLine"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Data Use Purpose",
           "validFor": null,
           "value": "DataUsePurpose"
@@ -501,6 +529,20 @@
           "label": "Feed Item",
           "validFor": null,
           "value": "FeedItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Finance Balance Snapshot",
+          "validFor": null,
+          "value": "FinanceBalanceSnapshot"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Finance Transaction",
+          "validFor": null,
+          "value": "FinanceTransaction"
         },
         {
           "active": true,
@@ -543,6 +585,13 @@
           "label": "Invoice",
           "validFor": null,
           "value": "Invoice"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Invoice Line",
+          "validFor": null,
+          "value": "InvoiceLine"
         },
         {
           "active": true,
@@ -669,6 +718,13 @@
           "label": "Payment Line Invoice",
           "validFor": null,
           "value": "PaymentLineInvoice"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Post",
+          "validFor": null,
+          "value": "Post__c"
         },
         {
           "active": true,

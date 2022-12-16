@@ -62,6 +62,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Application_Log__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AppointmentInvitation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "AppointmentTopicTimeSlot"
         },
         {
@@ -153,6 +167,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "CalloutInfo__mdt"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Campaign"
         },
         {
@@ -168,27 +189,6 @@
           "label": null,
           "validFor": null,
           "value": "CardPaymentMethod"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartDeliveryGroup"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartTax"
         },
         {
           "active": true,
@@ -363,6 +363,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "CreditMemoLine"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Custom_Notification__e"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Customer"
         },
         {
@@ -420,6 +434,13 @@
           "label": null,
           "validFor": null,
           "value": "DuplicateRecordSet"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Email_Domain__mdt"
         },
         {
           "active": true,
@@ -511,6 +532,13 @@
           "label": null,
           "validFor": null,
           "value": "Invoice"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "InvoiceLine"
         },
         {
           "active": true,
@@ -686,6 +714,13 @@
           "label": null,
           "validFor": null,
           "value": "PaymentMethod"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Post__c"
         },
         {
           "active": true,
@@ -945,20 +980,6 @@
           "label": null,
           "validFor": null,
           "value": "UserProvisioningRequest"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WebCart"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WebCartAdjustmentBasis"
         },
         {
           "active": true,

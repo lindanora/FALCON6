@@ -135,76 +135,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "AIError"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIInsightAction"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIInsightFeedback"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIInsightReason"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIInsightReasonMLModelFactor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIInsightSource"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIInsightValue"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIMetric"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIRecordInsight"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AIState"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "AlternativePaymentMethod"
         },
         {
@@ -227,6 +157,27 @@
           "label": null,
           "validFor": null,
           "value": "AppAnalyticsQueryRequest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Application_Log__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AppointmentInvitation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AppointmentInvitee"
         },
         {
           "active": true,
@@ -387,48 +338,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "CartCheckoutSession"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartDeliveryGroup"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartRelatedItem"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartTax"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartValidationOutput"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "Case"
         },
         {
@@ -535,6 +444,13 @@
           "label": null,
           "validFor": null,
           "value": "CommerceSearchIndexInfo"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CommerceSearchIndexLog"
         },
         {
           "active": true,
@@ -898,7 +814,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "HawkingTenantProvStatus"
+          "value": "FlowTestResult"
         },
         {
           "active": true,
@@ -976,6 +892,20 @@
           "label": null,
           "validFor": null,
           "value": "LearningItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LearningItemAssignment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LearningItemProgress"
         },
         {
           "active": true,
@@ -1115,13 +1045,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ManagedContent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "ManagedContentBlock"
         },
         {
@@ -1137,13 +1060,6 @@
           "label": null,
           "validFor": null,
           "value": "ManagedContentBodyLink"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentChannel"
         },
         {
           "active": true,
@@ -1241,6 +1157,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "ManagedContentTranslationJobItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ManagedContentTranslationJobLanguage"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "ManagedContentTranslationTask"
         },
         {
@@ -1249,13 +1179,6 @@
           "label": null,
           "validFor": null,
           "value": "ManagedContentTypeSearchBlackList"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "ManagedContentVariant"
         },
         {
           "active": true,
@@ -1284,48 +1207,6 @@
           "label": null,
           "validFor": null,
           "value": "MessagingSession"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MlAppMigrationStatus"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MLMigration"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MLModel"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MLModelFactor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MLModelFactorComponent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "MLModelMetric"
         },
         {
           "active": true,
@@ -1451,6 +1332,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Post__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Pricebook2"
         },
         {
@@ -1536,6 +1424,13 @@
           "label": null,
           "validFor": null,
           "value": "RecommendationReaction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "RecommendationResponse"
         },
         {
           "active": true,
@@ -1808,13 +1703,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "StoreIntegratedService"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "StrategyMonthlyStats"
         },
         {
@@ -1837,6 +1725,13 @@
           "label": null,
           "validFor": null,
           "value": "Task"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TenantSecurityAlertRuleSelectedTenant"
         },
         {
           "active": true,
@@ -1983,6 +1878,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "TenantSecurityTenantChangeLog"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TenantSecurityTenantInfo"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TenantSecurityTransactionPolicyTrend"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "TenantSecurityTrustedIpRangeTrend"
         },
         {
@@ -2061,20 +1977,6 @@
           "label": null,
           "validFor": null,
           "value": "UserQuestionnaireSummary"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WebCart"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WebCartAdjustmentBasis"
         },
         {
           "active": true,

@@ -191,7 +191,14 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Simple Auth Option Selected preferences",
+          "label": "Migrate to Flow preferences",
+          "validFor": null,
+          "value": "119"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Simple Auth Option preferences",
           "validFor": null,
           "value": "120"
         }

@@ -344,6 +344,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Application_Log__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "AppMenuItem"
         },
         {
@@ -365,6 +372,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "AppointmentInvitation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "AppointmentSchedulingPolicy"
         },
         {
@@ -380,13 +394,6 @@
           "label": null,
           "validFor": null,
           "value": "AppTabMember"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "AppUsageAssignment"
         },
         {
           "active": true,
@@ -638,6 +645,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "CalloutInfo__mdt"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Campaign"
         },
         {
@@ -660,13 +674,6 @@
           "label": null,
           "validFor": null,
           "value": "CardPaymentMethod"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CartItem"
         },
         {
           "active": true,
@@ -786,20 +793,6 @@
           "label": null,
           "validFor": null,
           "value": "ColorDefinition"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CommerceIntegrationEvent"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "CommerceIntegrationResponse"
         },
         {
           "active": true,
@@ -1052,6 +1045,13 @@
           "label": null,
           "validFor": null,
           "value": "CspTrustedSite"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Custom_Notification__e"
         },
         {
           "active": true,
@@ -1345,6 +1345,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Email_Domain__mdt"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "EmailBrand"
         },
         {
@@ -1569,7 +1576,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "ExpressionSetView"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "ExternalDataSource"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ExternalDataSrcDescriptor"
         },
         {
           "active": true,
@@ -1682,6 +1703,13 @@
           "label": null,
           "validFor": null,
           "value": "FlowElementSubtype"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "FlowEnvironmentDefinition"
         },
         {
           "active": true,
@@ -2731,6 +2759,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Post__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Pricebook2"
         },
         {
@@ -3488,13 +3523,6 @@
           "label": null,
           "validFor": null,
           "value": "Vote"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WebCart"
         },
         {
           "active": true,

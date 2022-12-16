@@ -70,6 +70,7 @@
       "picklistValues": [],
       "referenceTo": [
         "Account",
+        "Application_Log__c",
         "Asset",
         "AssetRelationship",
         "AssignedResource",
