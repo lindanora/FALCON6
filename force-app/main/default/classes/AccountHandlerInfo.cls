@@ -1,4 +1,5 @@
 public class AccountHandlerInfo {
+    // address practice
     public static List<Account> insertNewAccount(list<string> lstString ) {
         if (lstString.size()>0) {
             List<Account> lstAcc =new List<Account>();
